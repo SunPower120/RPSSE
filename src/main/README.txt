@@ -1,46 +1,42 @@
-Your final task is to create a similar version of the game 'Rock, Paper, Scissors'. It's called 'Rock, Paper, Scissors, Lizard, Spock'.
+Rock Paper Scissors Lizard Spock Game
+This is a Java application that simulates the game of Rock Paper Scissors Lizard Spock.
 
-You can use any programming language of your choice and add your own customizations.
+Getting Started
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-We will evaluate whether the task conditions are met, as well code quality and code readability.
+Prerequisites
+To run the application, you need:
 
-This task has three difficulty levels. To achieve the highest score, complete all levels. However, it is mandatory to complete only the first level.
+Java Development Kit (JDK) installed on your system. If you don't have it already, you can download it here. The application is tested to work with Java 11.
 
-Deadline: 26 JULY 2023.
+An Integrated Development Environment (IDE), like IntelliJ IDEA or Eclipse. These are not strictly necessary, you could use a simple text editor and command line tools, but an IDE makes it easier.
 
-Send your solution to akademija@mitigate.dev.
+Running the Game
+Clone or download the project to your local machine.
 
-Game rules are:
+Open the project in your chosen IDE or text editor.
 
-Rock crushes Scissors.
-Scissors cuts Paper.
-Paper covers Rock.
-Rock crushes Lizard.
-Lizard poisons Spock.
-Spock smashes Scissors.
-Scissors decapitates Lizard.
-Lizard eats Paper.
-Paper disproves Spock.
-Spock vaporizes Rock.
+Run the Main class. This is the entry point to the application.
 
-## Level 1
+Game Play
+On running the application, you'll be asked to input the following:
 
-- Create console game
-- You play vs computer three rounds
-- You type in words what you choose (or another type of input)
-- After three rounds, print out in the console who the winner is
+Your name.
 
-## Level 2
+Number of computer players (from 1 up to 9).
 
-- You have predefined 3 computer players
-- Each player should have funny name and it should be shown in play time
-- You need to play with each computer player three rounds
-- To become the winner, you need to defeat all players
+Number of rounds (from 1 up to 5).
 
-## Level 3
+For each round, you'll need to enter your move. The choices are:
 
-- You can pass number of computer players (from 1 up to 9)
-- You can pass number of rounds (from 1 up to 5)
-- Each player should play with other player, computer vs computer too
-- Print out results for all players in any form you like
-- To become the winner, you need to have the highest victory count
+R for Rock
+P for Paper
+S for Scissors
+L for Lizard
+SP for Spock
+The application will generate moves for the computer players and calculate the results for each round.
+
+At the end of all rounds, the score matrix will be displayed. This matrix shows the results of all games played between each pair of players. The final scores are then calculated, and the winner is announced.
+
+License
+This project is licensed under the MIT License.
