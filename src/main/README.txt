@@ -7,7 +7,8 @@ These instructions will help you get a copy of the project up and running on you
 Prerequisites
 To run the application, you need:
 
-Java Development Kit (JDK) installed on your system. If you don't have it already, you can download it here. The application is tested to work with Java 11.
+Java Development Kit (JDK) installed on your system. If you don't have it already, you can download it here: https://www.oracle.com/java/technologies/downloads/#java11 .
+The application is tested to work with Java 11.
 
 An Integrated Development Environment (IDE), like IntelliJ IDEA or Eclipse. These are not strictly necessary, you could use a simple text editor and command line tools, but an IDE makes it easier.
 
