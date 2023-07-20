@@ -2,15 +2,17 @@ Rock Paper Scissors Lizard Spock Game
 This is a Java application that simulates the game of Rock Paper Scissors Lizard Spock.
 
 Getting Started
-These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will help you get a copy of the project up and running on your local machine for development and
+testing purposes.
 
 Prerequisites
 To run the application, you need:
 
-Java Development Kit (JDK) installed on your system. If you don't have it already, you can download it here: https://www.oracle.com/java/technologies/downloads/#java11 .
+Java Development Kit (JDK) installed on your system. If you don't have it already, you can download it
+here: https://www.oracle.com/java/technologies/downloads/#java11 .
 The application is tested to work with Java 11.
 
-An Integrated Development Environment (IDE), like IntelliJ IDEA or Eclipse. These are not strictly necessary, you could use a simple text editor and command line tools, but an IDE makes it easier.
+An Integrated Development Environment (IDE), like IntelliJ IDEA or Eclipse.
 
 Running the Game
 Clone or download the project to your local machine.
@@ -37,7 +39,8 @@ L for Lizard
 SP for Spock
 The application will generate moves for the computer players and calculate the results for each round.
 
-At the end of all rounds, the score matrix will be displayed. This matrix shows the results of all games played between each pair of players. The final scores are then calculated, and the winner is announced.
+At the end of all rounds, the score matrix will be displayed. This matrix shows the results of all games played between
+each pair of players. The final scores are then calculated, and the winner is announced.
 
 License
 This project is licensed under the MIT License.

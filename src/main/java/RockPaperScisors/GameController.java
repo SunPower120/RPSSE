@@ -1,6 +1,7 @@
 package RockPaperScisors;
 
-import RockPaperScisors.GameComponents.MoveChoice;
+import RockPaperScisors.GameComponents.FightingTools;
+import RockPaperScisors.GameComponents.MoveChoices;
 import RockPaperScisors.GameComponents.PcPlayerNames;
 import RockPaperScisors.GameComponents.Player;
 
@@ -9,51 +10,24 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GameController {
-    public static void initGame() {
-        Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter your name:");
-        String playerName = scan.nextLine();
+    private final GameState gameState;
+    private final MoveChoices moveChoices;
+    private final GameConfig gameConfig;
 
-        GameState.players.add(new Player(playerName));
 
-        System.out.println("Enter number of computer players (from 1 up to 9):");
-        int numberOfComputerPlayers = Math.min(Math.max(scan.nextInt(), 1), 9);
+    public GameController(GameState gameState, MoveChoices moveChoices, GameConfig gameConfig) {
+        this.gameState = gameState;
+        this.moveChoices = moveChoices;
+        this.gameConfig = gameConfig;
 
-        System.out.println("Enter number of rounds (from 1 up to 5):");
-        GameState.numberOfRounds = Math.min(Math.max(scan.nextInt(), 1), 5);
-
-        List<String> randomNames = PcPlayerNames.getRandomNames(numberOfComputerPlayers);
-
-        for (String name : randomNames) {
-            GameState.players.add(new Player(name));
-        }
     }
 
-    public static MoveChoice getPlayerMove() {
-        Scanner scan = new Scanner(System.in);
-        MoveChoice playerMove = null;
-        while (playerMove == null) {
-            System.out.println("Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):");
-            String move = scan.nextLine().toUpperCase();
-
-            switch (move) {
-                case "R" -> playerMove = MoveChoice.ROCK;
-                case "P" -> playerMove = MoveChoice.PAPER;
-                case "S" -> playerMove = MoveChoice.SCISSORS;
-                case "L" -> playerMove = MoveChoice.LIZARD;
-                case "SP" -> playerMove = MoveChoice.SPOCK;
-                default -> System.out.println("Invalid move, please try again");
-            }
-        }
-        return playerMove;
-    }
-
-    static void determineWinner() {
+    void determineWinner() {
         List<Player> winners = new ArrayList<>();
         int maxScore = 0;
 
-        for (Player player : GameState.players) {
+        for (Player player : gameState.players) {
             int score = player.getScore();
             if (score > maxScore) {
                 maxScore = score;
@@ -74,9 +48,9 @@ public class GameController {
 
                 for (Player opponent : winners) {
                     if (!player.equals(opponent)) {
-                        int playerIndex = GameState.players.indexOf(player);
-                        int opponentIndex = GameState.players.indexOf(opponent);
-                        directScore += GameState.scores[playerIndex][opponentIndex][0];
+                        int playerIndex = gameState.players.indexOf(player);
+                        int opponentIndex = gameState.players.indexOf(opponent);
+                        directScore += gameState.scores[playerIndex][opponentIndex][0];
                     }
                 }
 
@@ -99,30 +73,52 @@ public class GameController {
         }
     }
 
-    static void runPcGames() {
-        for (int round = 0; round < GameState.numberOfRounds; round++) {
-            for (int i = 0; i < GameState.players.size(); i++) {
-                for (int j = i + 1; j < GameState.players.size(); j++) {
-                    MoveChoice move1 = (i == 0) ? GameController.getPlayerMove() : MoveChoice.getRandomChoice();
-                    MoveChoice move2 = MoveChoice.getRandomChoice();
+    void runPcGames() {
+        for (int round = 0; round < gameState.numberOfRounds; round++) {
+            for (int i = 0; i < gameState.players.size(); i++) {
+                for (int j = i + 1; j < gameState.players.size(); j++) {
+                    FightingTools move1 = (i == 0) ? moveChoices.getPlayerMove() : moveChoices.getRandomChoice();
+                    FightingTools move2 = moveChoices.getRandomChoice();
                     String resultMessage;
 
-                    if (GameConfig.getIsStrongerThan(move1).contains(move2)) {
-                        GameState.players.get(i).incrementScore();
-                        GameState.scores[i][j][0]++;
-                        GameState.scores[j][i][1]++;
-                        resultMessage = GameState.players.get(i).getName() + " wins. " + move1 + " " + GameConfig.getAction(move1).get(0) + " " + move2;
-                    } else if (GameConfig.getIsStrongerThan(move2).contains(move1)) {
-                        GameState.players.get(j).incrementScore();
-                        GameState.scores[i][j][1]++;
-                        GameState.scores[j][i][0]++;
-                        resultMessage = GameState.players.get(j).getName() + " wins. " + move2 + " " + GameConfig.getAction(move2).get(0) + " " + move1;
+                    if (gameConfig.getIsStrongerThan(move1).contains(move2)) {
+                        gameState.players.get(i).incrementScore();
+                        gameState.scores[i][j][0]++;
+                        gameState.scores[j][i][1]++;
+                        resultMessage = gameState.players.get(i).getName() + " wins. " + move1 + " " + gameConfig.getAction(move1, move2) + " " + move2;
+                    } else if (gameConfig.getIsStrongerThan(move2).contains(move1)) {
+                        gameState.players.get(j).incrementScore();
+                        gameState.scores[i][j][1]++;
+                        gameState.scores[j][i][0]++;
+                        resultMessage = gameState.players.get(j).getName() + " wins. " + move2 + " " + gameConfig.getAction(move2, move1) + " " + move1;
                     } else {
                         resultMessage = "It's a draw.";
                     }
-                    System.out.println("Round " + (round + 1) + ": " + GameState.players.get(i).getName() + " (" + move1 + ") VS " + GameState.players.get(j).getName() + " (" + move2 + ") - " + resultMessage);
+                    System.out.println("Round " + (round + 1) + ": " + gameState.players.get(i).getName() + " (" + move1 + ") VS " + gameState.players.get(j).getName() + " (" + move2 + ") - " + resultMessage);
                 }
             }
         }
     }
+
+    public void initGame() {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter your name:");
+        String playerName = scan.nextLine();
+
+        gameState.players.add(new Player(playerName));
+
+        System.out.println("Enter number of computer players (from 1 up to 9):");
+        int numberOfComputerPlayers = Math.min(Math.max(scan.nextInt(), 1), 9);
+
+        System.out.println("Enter number of rounds (from 1 up to 5):");
+        gameState.numberOfRounds = Math.min(Math.max(scan.nextInt(), 1), 5);
+
+        List<String> randomNames = PcPlayerNames.getRandomNames(numberOfComputerPlayers);
+
+        for (String name : randomNames) {
+            gameState.players.add(new Player(name));
+        }
+    }
+
 }
