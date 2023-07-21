@@ -14,18 +14,10 @@ public class ScorePrinter {
         this.gameState = gameState;
     }
 
-    private String center(String text, int len) {
-        String out = String.format("%" + len + "s%s%" + len + "s", "", text, "");
-        float mid = ((float) out.length() / 2);
-        float start = mid - ((float) len / 2);
-        float end = start + len;
-        return out.substring((int) start, (int) end);
-    }
-
     public void printScores() {
-
         int maxNameLength = findMaxNameLength();
         int cellWidth = determineCellWidth(maxNameLength);
+
         String format = "|%-" + cellWidth + "s";
         String formatN = "|%-" + cellWidth + "s|";
 
@@ -72,4 +64,13 @@ public class ScorePrinter {
             stringbuilder.setLength(0);
         }
     }
+
+    private String center(String text, int len) {
+        String out = String.format("%" + len + "s%s%" + len + "s", "", text, "");
+        float mid = ((float) out.length() / 2);
+        float start = mid - ((float) len / 2);
+        float end = start + len;
+        return out.substring((int) start, (int) end);
+    }
+
 }
