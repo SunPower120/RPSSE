@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GameController {
-
     private static final Logger consoleLogger = LoggerFactory.getLogger("consoleLogger");
     private final GameState gameState;
     private final MoveChoices moveChoices;
@@ -25,7 +24,6 @@ public class GameController {
         this.gameConfig = gameConfig;
 
     }
-
 
     void runPcGames() {
         for (int round = 0; round < gameState.getNumberOfRounds(); round++) {
@@ -75,7 +73,7 @@ public class GameController {
                 break;
             } catch (InputMismatchException e) {
                 consoleLogger.error("Invalid input. Please enter an integer number.");
-                scan.next(); // consume the invalid token
+                scan.next();
             } catch (OutOfRangeException e) {
                 consoleLogger.error(e.getMessage());
             }
@@ -92,7 +90,7 @@ public class GameController {
                 break;
             } catch (InputMismatchException e) {
                 consoleLogger.error("Invalid input. Please enter an integer number.");
-                scan.next(); // consume the invalid token
+                scan.next();
             } catch (OutOfRangeException e) {
                 consoleLogger.error(e.getMessage());
             }

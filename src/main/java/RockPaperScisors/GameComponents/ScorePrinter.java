@@ -8,7 +8,6 @@ public class ScorePrinter {
 
     private static final Logger consoleLogger = LoggerFactory.getLogger("consoleLogger");
     private final GameState gameState;
-
     StringBuilder stringbuilder = new StringBuilder();
 
     public ScorePrinter(GameState gameState) {

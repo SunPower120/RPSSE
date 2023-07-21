@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DetermineWinner {
-
     private static final Logger consoleLogger = LoggerFactory.getLogger("consoleLogger");
     private final GameState gameState;
     private final List<Player> winners = new ArrayList<>();

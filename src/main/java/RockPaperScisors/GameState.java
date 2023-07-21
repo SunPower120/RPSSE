@@ -9,7 +9,6 @@ import java.util.List;
 
 
 public class GameState {
-
     private static final Logger fileLogger = LoggerFactory.getLogger("fileLogger");
     private List<Player> players = new ArrayList<>();
     private int[][][] scoreMatrix;
@@ -44,7 +43,7 @@ public class GameState {
                 (scores.length > 0 ? scores[0].length : 0),
                 (scores.length > 0 && scores[0].length > 0 ? scores[0][0].length : 0));
     }
-    
+
     public int getNumberOfRounds() {
         return numberOfRounds;
     }
