@@ -1,0 +1,1657 @@
+17:01:51.219 [main] INFO  consoleLogger - Enter your name:
+17:01:55.233 [main] DEBUG fileLogger - Added player: Andris
+17:01:55.235 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:01:56.776 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:01:57.692 [main] DEBUG fileLogger - Rounds set to: 1
+17:01:57.693 [main] DEBUG fileLogger - Added player: ArraySlayer
+17:01:57.694 [main] DEBUG fileLogger - Score matrix dimensions set to: [2][2][2]
+17:01:59.374 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:01:59.374 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:01:59.385 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS ArraySlayer (LIZARD) - Andris wins. ROCK crushes LIZARD
+17:01:59.386 [main] INFO  consoleLogger - 
+Score Matrix:
+17:01:59.386 [main] INFO  consoleLogger - |%-15s
+17:01:59.388 [main] INFO  consoleLogger - |%-15s
+17:01:59.388 [main] INFO  consoleLogger - |%-15s
+17:01:59.388 [main] INFO  consoleLogger - |%-15s|
+
+17:08:13.928 [main] INFO  consoleLogger - Enter your name:
+17:08:17.780 [main] DEBUG fileLogger - Added player: A
+17:08:17.782 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:08:19.593 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:08:21.124 [main] DEBUG fileLogger - Rounds set to: 2
+17:08:21.125 [main] DEBUG fileLogger - Added player: Heapster
+17:08:21.125 [main] DEBUG fileLogger - Added player: InfiniteLoop
+17:08:21.125 [main] DEBUG fileLogger - Score matrix dimensions set to: [3][3][2]
+17:08:23.615 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:08:23.616 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:08:23.626 [main] INFO  consoleLogger - Round 1: A (ROCK) VS Heapster (PAPER) - Heapster wins. PAPER covers ROCK
+17:08:27.003 [main] INFO  consoleLogger - Round 1: A (ROCK) VS InfiniteLoop (ROCK) - It's a draw.
+17:08:27.003 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+17:08:27.004 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+17:08:27.004 [main] INFO  consoleLogger - Round 1: Heapster (SPOCK) VS InfiniteLoop (ROCK) - Heapster wins. SPOCK vaporizes ROCK
+17:08:29.359 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:08:29.359 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:08:29.360 [main] INFO  consoleLogger - Round 2: A (ROCK) VS Heapster (LIZARD) - A wins. ROCK crushes LIZARD
+17:08:31.445 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+17:08:31.445 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+17:08:31.446 [main] INFO  consoleLogger - Round 2: A (ROCK) VS InfiniteLoop (SPOCK) - InfiniteLoop wins. SPOCK vaporizes ROCK
+17:08:31.446 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+17:08:31.446 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+17:08:31.446 [main] INFO  consoleLogger - Round 2: Heapster (LIZARD) VS InfiniteLoop (SCISSORS) - InfiniteLoop wins. SCISSORS decapitates LIZARD
+17:08:31.448 [main] INFO  consoleLogger - 
+Score Matrix:
+17:08:31.448 [main] INFO  consoleLogger - |               
+17:08:31.450 [main] INFO  consoleLogger - |       A       
+17:08:31.450 [main] INFO  consoleLogger - |    Heapster   
+17:08:31.450 [main] INFO  consoleLogger - |  InfiniteLoop 
+17:08:31.450 [main] INFO  consoleLogger - |     Total     |
+
+17:09:53.744 [main] INFO  consoleLogger - Enter your name:
+17:09:55.926 [main] DEBUG fileLogger - Added player: A
+17:09:55.927 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:09:57.605 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:09:58.174 [main] DEBUG fileLogger - Rounds set to: 2
+17:09:58.175 [main] DEBUG fileLogger - Added player: RuntimeRider
+17:09:58.175 [main] DEBUG fileLogger - Added player: InfiniteLoop
+17:09:58.175 [main] DEBUG fileLogger - Score matrix dimensions set to: [3][3][2]
+17:09:59.864 [main] INFO  consoleLogger - Round 1: A (ROCK) VS RuntimeRider (ROCK) - It's a draw.
+17:10:01.686 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+17:10:01.686 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+17:10:01.689 [main] INFO  consoleLogger - Round 1: A (ROCK) VS InfiniteLoop (PAPER) - InfiniteLoop wins. PAPER covers ROCK
+17:10:01.690 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+17:10:01.690 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+17:10:01.690 [main] INFO  consoleLogger - Round 1: RuntimeRider (ROCK) VS InfiniteLoop (LIZARD) - RuntimeRider wins. ROCK crushes LIZARD
+17:10:02.824 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:10:02.824 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:10:02.825 [main] INFO  consoleLogger - Round 2: A (ROCK) VS RuntimeRider (LIZARD) - A wins. ROCK crushes LIZARD
+17:10:03.993 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+17:10:03.994 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+17:10:03.994 [main] INFO  consoleLogger - Round 2: A (ROCK) VS InfiniteLoop (LIZARD) - A wins. ROCK crushes LIZARD
+17:10:03.994 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+17:10:03.994 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+17:10:03.994 [main] INFO  consoleLogger - Round 2: RuntimeRider (ROCK) VS InfiniteLoop (PAPER) - InfiniteLoop wins. PAPER covers ROCK
+17:10:03.996 [main] INFO  consoleLogger - 
+Score Matrix:
+17:10:03.996 [main] INFO  consoleLogger - |               
+17:21:39.712 [main] INFO  consoleLogger - Enter your name:
+17:21:41.529 [main] DEBUG fileLogger - Added player: a
+17:21:41.531 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:21:47.391 [main] INFO  consoleLogger - Enter your name:
+17:21:49.196 [main] DEBUG fileLogger - Added player: 9
+17:21:49.197 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:21:51.714 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:21:53.018 [main] DEBUG fileLogger - Rounds set to: 2
+17:21:53.019 [main] DEBUG fileLogger - Added player: AlgorithmAce
+17:21:53.019 [main] DEBUG fileLogger - Score matrix dimensions set to: [2][2][2]
+17:21:54.567 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:21:54.567 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:21:54.576 [main] INFO  consoleLogger - Round 1: 9 (ROCK) VS AlgorithmAce (PAPER) - AlgorithmAce wins. PAPER covers ROCK
+17:21:55.673 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  2
+17:21:55.674 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  2
+17:21:55.674 [main] INFO  consoleLogger - Round 2: 9 (ROCK) VS AlgorithmAce (PAPER) - AlgorithmAce wins. PAPER covers ROCK
+17:21:55.675 [main] INFO  consoleLogger - 
+Score Matrix:
+17:21:55.676 [main] INFO  consoleLogger - |               
+17:23:16.647 [main] INFO  consoleLogger - Enter your name:
+17:23:19.090 [main] DEBUG fileLogger - Added player: a
+17:23:19.091 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:23:20.229 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:23:20.694 [main] DEBUG fileLogger - Rounds set to: 1
+17:23:20.695 [main] DEBUG fileLogger - Added player: ExceptionExplorer
+17:23:20.695 [main] DEBUG fileLogger - Score matrix dimensions set to: [2][2][2]
+17:23:22.198 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:23:22.198 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:23:22.209 [main] INFO  consoleLogger - Round 1: a (ROCK) VS ExceptionExplorer (SPOCK) - ExceptionExplorer wins. SPOCK vaporizes ROCK
+17:23:22.210 [main] INFO  consoleLogger - 
+Score Matrix:
+17:36:24.506 [main] INFO  consoleLogger - Enter your name:
+17:36:30.015 [main] DEBUG fileLogger - Added player: a
+17:36:30.017 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:36:31.649 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:36:33.059 [main] DEBUG fileLogger - Rounds set to: 1
+17:36:33.060 [main] DEBUG fileLogger - Added player: BooleanBoss
+17:36:33.060 [main] DEBUG fileLogger - Added player: JavaJuice
+17:36:33.060 [main] DEBUG fileLogger - Score matrix dimensions set to: [3][3][2]
+17:36:34.547 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:36:34.548 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:36:34.560 [main] INFO  consoleLogger - Round 1: a (ROCK) VS BooleanBoss (SPOCK) - BooleanBoss wins. SPOCK vaporizes ROCK
+17:36:35.129 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+17:36:35.129 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+17:36:35.129 [main] INFO  consoleLogger - Round 1: a (ROCK) VS JavaJuice (PAPER) - JavaJuice wins. PAPER covers ROCK
+17:36:35.129 [main] INFO  consoleLogger - Round 1: BooleanBoss (PAPER) VS JavaJuice (PAPER) - It's a draw.
+17:36:35.131 [main] INFO  consoleLogger - 
+Score Matrix:
+17:40:36.901 [main] INFO  consoleLogger - Enter your name:
+17:40:39.227 [main] DEBUG fileLogger - Added player: a
+17:40:39.229 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:40:41.040 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:40:42.647 [main] DEBUG fileLogger - Rounds set to: 1
+17:40:42.648 [main] DEBUG fileLogger - Added player: ByteDancer
+17:40:42.648 [main] DEBUG fileLogger - Score matrix dimensions set to: [2][2][2]
+17:40:44.135 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:40:44.135 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:40:44.146 [main] INFO  consoleLogger - Round 1: a (ROCK) VS ByteDancer (SPOCK) - ByteDancer wins. SPOCK vaporizes ROCK
+17:40:44.147 [main] INFO  consoleLogger - 
+Score Matrix:
+17:40:44.148 [main] INFO  consoleLogger - |               
+17:42:55.261 [main] INFO  consoleLogger - Enter your name:
+17:43:00.467 [main] DEBUG fileLogger - Added player: a
+17:43:00.468 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:43:02.101 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:43:03.212 [main] DEBUG fileLogger - Rounds set to: 2
+17:43:03.213 [main] DEBUG fileLogger - Added player: BooleanBoss
+17:43:03.213 [main] DEBUG fileLogger - Added player: Heapster
+17:43:03.213 [main] DEBUG fileLogger - Score matrix dimensions set to: [3][3][2]
+17:43:04.871 [main] INFO  consoleLogger - Round 1: a (ROCK) VS BooleanBoss (ROCK) - It's a draw.
+17:43:06.078 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+17:43:06.078 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+17:43:06.081 [main] INFO  consoleLogger - Round 1: a (ROCK) VS Heapster (PAPER) - Heapster wins. PAPER covers ROCK
+17:43:06.082 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+17:43:06.082 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+17:43:06.082 [main] INFO  consoleLogger - Round 1: BooleanBoss (SCISSORS) VS Heapster (PAPER) - BooleanBoss wins. SCISSORS cuts PAPER
+17:43:07.426 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:43:07.426 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:43:07.426 [main] INFO  consoleLogger - Round 2: a (ROCK) VS BooleanBoss (SCISSORS) - a wins. ROCK crushes SCISSORS
+17:43:08.312 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  2
+17:43:08.312 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  2
+17:43:08.312 [main] INFO  consoleLogger - Round 2: a (ROCK) VS Heapster (PAPER) - Heapster wins. PAPER covers ROCK
+17:43:08.312 [main] INFO  consoleLogger - Round 2: BooleanBoss (ROCK) VS Heapster (ROCK) - It's a draw.
+17:43:08.314 [main] INFO  consoleLogger - 
+Score Matrix:
+17:43:08.317 [main] INFO  consoleLogger - |       a       
+
+17:43:08.317 [main] INFO  consoleLogger - |  BooleanBoss  
+
+17:43:08.317 [main] INFO  consoleLogger - |    Heapster   
+
+17:43:08.317 [main] INFO  consoleLogger - |     Total     |
+
+
+17:45:08.433 [main] INFO  consoleLogger - Enter your name:
+17:45:14.012 [main] DEBUG fileLogger - Added player: 3
+17:45:14.014 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:45:15.587 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:45:19.651 [main] DEBUG fileLogger - Rounds set to: 1
+17:45:19.652 [main] DEBUG fileLogger - Added player: RustySemaphore
+17:45:19.652 [main] DEBUG fileLogger - Added player: RuntimeRider
+17:45:19.652 [main] DEBUG fileLogger - Added player: AlgorithmAce
+17:45:19.652 [main] DEBUG fileLogger - Score matrix dimensions set to: [4][4][2]
+17:45:20.959 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:45:20.959 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:45:20.969 [main] INFO  consoleLogger - Round 1: 3 (ROCK) VS RustySemaphore (SCISSORS) - 3 wins. ROCK crushes SCISSORS
+17:45:21.962 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+17:45:21.962 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+17:45:21.962 [main] INFO  consoleLogger - Round 1: 3 (ROCK) VS RuntimeRider (LIZARD) - 3 wins. ROCK crushes LIZARD
+17:45:23.042 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  1
+17:45:23.042 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  1
+17:45:23.042 [main] INFO  consoleLogger - Round 1: 3 (ROCK) VS AlgorithmAce (PAPER) - AlgorithmAce wins. PAPER covers ROCK
+17:45:23.042 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+17:45:23.042 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+17:45:23.042 [main] INFO  consoleLogger - Round 1: RustySemaphore (LIZARD) VS RuntimeRider (ROCK) - RuntimeRider wins. ROCK crushes LIZARD
+17:45:23.042 [main] INFO  consoleLogger - Round 1: RustySemaphore (PAPER) VS AlgorithmAce (PAPER) - It's a draw.
+17:45:23.042 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  1
+17:45:23.042 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  1
+17:45:23.042 [main] INFO  consoleLogger - Round 1: RuntimeRider (ROCK) VS AlgorithmAce (SPOCK) - AlgorithmAce wins. SPOCK vaporizes ROCK
+17:45:23.044 [main] INFO  consoleLogger - 
+Score Matrix:
+17:47:20.110 [main] INFO  consoleLogger - Enter your name:
+17:47:22.353 [main] DEBUG fileLogger - Added player: a
+17:47:22.355 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:47:23.913 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:47:25.428 [main] DEBUG fileLogger - Rounds set to: 3
+17:47:25.429 [main] DEBUG fileLogger - Added player: LambdaLuchador
+17:47:25.429 [main] DEBUG fileLogger - Added player: CurlyBraces
+17:47:25.429 [main] DEBUG fileLogger - Added player: Codezilla
+17:47:25.429 [main] DEBUG fileLogger - Score matrix dimensions set to: [4][4][2]
+17:47:27.022 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:47:27.022 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:47:27.032 [main] INFO  consoleLogger - Round 1: a (ROCK) VS LambdaLuchador (PAPER) - LambdaLuchador wins. PAPER covers ROCK
+17:47:28.008 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+17:47:28.008 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+17:47:28.008 [main] INFO  consoleLogger - Round 1: a (ROCK) VS CurlyBraces (SPOCK) - CurlyBraces wins. SPOCK vaporizes ROCK
+17:47:28.802 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  1
+17:47:28.802 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  1
+17:47:28.802 [main] INFO  consoleLogger - Round 1: a (ROCK) VS Codezilla (PAPER) - Codezilla wins. PAPER covers ROCK
+17:47:28.803 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+17:47:28.803 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+17:47:28.803 [main] INFO  consoleLogger - Round 1: LambdaLuchador (LIZARD) VS CurlyBraces (SPOCK) - LambdaLuchador wins. LIZARD poisons SPOCK
+17:47:28.803 [main] INFO  consoleLogger - Round 1: LambdaLuchador (SCISSORS) VS Codezilla (SCISSORS) - It's a draw.
+17:47:28.803 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  1
+17:47:28.803 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  1
+17:47:28.803 [main] INFO  consoleLogger - Round 1: CurlyBraces (SPOCK) VS Codezilla (ROCK) - CurlyBraces wins. SPOCK vaporizes ROCK
+17:47:29.748 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  2
+17:47:29.748 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  2
+17:47:29.748 [main] INFO  consoleLogger - Round 2: a (ROCK) VS LambdaLuchador (PAPER) - LambdaLuchador wins. PAPER covers ROCK
+17:47:30.498 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  2
+17:47:30.498 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  2
+17:47:30.498 [main] INFO  consoleLogger - Round 2: a (ROCK) VS CurlyBraces (PAPER) - CurlyBraces wins. PAPER covers ROCK
+17:47:31.278 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  2
+17:47:31.278 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  2
+17:47:31.278 [main] INFO  consoleLogger - Round 2: a (ROCK) VS Codezilla (SPOCK) - Codezilla wins. SPOCK vaporizes ROCK
+17:47:31.279 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+17:47:31.279 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+17:47:31.279 [main] INFO  consoleLogger - Round 2: LambdaLuchador (PAPER) VS CurlyBraces (SCISSORS) - CurlyBraces wins. SCISSORS cuts PAPER
+17:47:31.279 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  1
+17:47:31.279 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  1
+17:47:31.279 [main] INFO  consoleLogger - Round 2: LambdaLuchador (SPOCK) VS Codezilla (SCISSORS) - LambdaLuchador wins. SPOCK smashes SCISSORS
+17:47:31.279 [main] INFO  consoleLogger - Round 2: CurlyBraces (SCISSORS) VS Codezilla (SCISSORS) - It's a draw.
+17:47:32.060 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:47:32.060 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:47:32.060 [main] INFO  consoleLogger - Round 3: a (ROCK) VS LambdaLuchador (SCISSORS) - a wins. ROCK crushes SCISSORS
+17:47:32.792 [main] INFO  consoleLogger - Round 3: a (ROCK) VS CurlyBraces (ROCK) - It's a draw.
+17:47:33.497 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  3
+17:47:33.498 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  3
+17:47:33.498 [main] INFO  consoleLogger - Round 3: a (ROCK) VS Codezilla (PAPER) - Codezilla wins. PAPER covers ROCK
+17:47:33.498 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  2
+17:47:33.498 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  2
+17:47:33.498 [main] INFO  consoleLogger - Round 3: LambdaLuchador (ROCK) VS CurlyBraces (PAPER) - CurlyBraces wins. PAPER covers ROCK
+17:47:33.498 [main] INFO  consoleLogger - Round 3: LambdaLuchador (PAPER) VS Codezilla (PAPER) - It's a draw.
+17:47:33.498 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  2
+17:47:33.498 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  2
+17:47:33.499 [main] INFO  consoleLogger - Round 3: CurlyBraces (ROCK) VS Codezilla (LIZARD) - CurlyBraces wins. ROCK crushes LIZARD
+17:47:33.501 [main] INFO  consoleLogger - 
+Score Matrix:
+17:47:33.501 [main] INFO  consoleLogger - |                
+17:47:33.503 [main] INFO  consoleLogger - |        a       
+17:47:33.503 [main] INFO  consoleLogger - | LambdaLuchador 
+17:47:33.503 [main] INFO  consoleLogger - |   CurlyBraces  
+17:47:33.504 [main] INFO  consoleLogger - |    Codezilla   
+17:47:33.504 [main] INFO  consoleLogger - |      Total     |
+
+17:48:47.087 [main] INFO  consoleLogger - Enter your name:
+17:48:58.038 [main] DEBUG fileLogger - Added player: a
+17:48:58.040 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:48:59.538 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:49:00.034 [main] DEBUG fileLogger - Rounds set to: 3
+17:49:00.035 [main] DEBUG fileLogger - Added player: CaffeinatedCompiler
+17:49:00.035 [main] DEBUG fileLogger - Added player: CurlyBraces
+17:49:00.035 [main] DEBUG fileLogger - Added player: RustySemaphore
+17:49:00.035 [main] DEBUG fileLogger - Score matrix dimensions set to: [4][4][2]
+17:49:01.551 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:49:01.551 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:49:01.561 [main] INFO  consoleLogger - Round 1: a (ROCK) VS CaffeinatedCompiler (LIZARD) - a wins. ROCK crushes LIZARD
+17:49:01.833 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+17:49:01.833 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+17:49:01.833 [main] INFO  consoleLogger - Round 1: a (ROCK) VS CurlyBraces (LIZARD) - a wins. ROCK crushes LIZARD
+17:49:02.088 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  1
+17:49:02.089 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  1
+17:49:02.089 [main] INFO  consoleLogger - Round 1: a (ROCK) VS RustySemaphore (LIZARD) - a wins. ROCK crushes LIZARD
+17:49:02.089 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+17:49:02.089 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+17:49:02.089 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (PAPER) VS CurlyBraces (ROCK) - CaffeinatedCompiler wins. PAPER covers ROCK
+17:49:02.089 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  1
+17:49:02.089 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  1
+17:49:02.089 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (ROCK) VS RustySemaphore (SCISSORS) - CaffeinatedCompiler wins. ROCK crushes SCISSORS
+17:49:02.089 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  1
+17:49:02.089 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  1
+17:49:02.089 [main] INFO  consoleLogger - Round 1: CurlyBraces (ROCK) VS RustySemaphore (SCISSORS) - CurlyBraces wins. ROCK crushes SCISSORS
+17:49:02.314 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:49:02.314 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:49:02.314 [main] INFO  consoleLogger - Round 2: a (ROCK) VS CaffeinatedCompiler (SPOCK) - CaffeinatedCompiler wins. SPOCK vaporizes ROCK
+17:49:02.508 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  2
+17:49:02.508 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  2
+17:49:02.508 [main] INFO  consoleLogger - Round 2: a (ROCK) VS CurlyBraces (LIZARD) - a wins. ROCK crushes LIZARD
+17:49:02.883 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  1
+17:49:02.884 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  1
+17:49:02.884 [main] INFO  consoleLogger - Round 2: a (ROCK) VS RustySemaphore (SPOCK) - RustySemaphore wins. SPOCK vaporizes ROCK
+17:49:02.884 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (PAPER) VS CurlyBraces (PAPER) - It's a draw.
+17:49:02.884 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  2
+17:49:02.884 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  2
+17:49:02.884 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (PAPER) VS RustySemaphore (ROCK) - CaffeinatedCompiler wins. PAPER covers ROCK
+17:49:02.884 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  1
+17:49:02.884 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  1
+17:49:02.884 [main] INFO  consoleLogger - Round 2: CurlyBraces (SCISSORS) VS RustySemaphore (SPOCK) - RustySemaphore wins. SPOCK smashes SCISSORS
+17:49:03.304 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  2
+17:49:03.304 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  2
+17:49:03.304 [main] INFO  consoleLogger - Round 3: a (ROCK) VS CaffeinatedCompiler (PAPER) - CaffeinatedCompiler wins. PAPER covers ROCK
+17:49:03.678 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+17:49:03.678 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+17:49:03.679 [main] INFO  consoleLogger - Round 3: a (ROCK) VS CurlyBraces (SPOCK) - CurlyBraces wins. SPOCK vaporizes ROCK
+17:49:04.024 [main] INFO  consoleLogger - Round 3: a (ROCK) VS RustySemaphore (ROCK) - It's a draw.
+17:49:04.024 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+17:49:04.024 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+17:49:04.024 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (ROCK) VS CurlyBraces (SPOCK) - CurlyBraces wins. SPOCK vaporizes ROCK
+17:49:04.024 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  1
+17:49:04.024 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  1
+17:49:04.024 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (LIZARD) VS RustySemaphore (ROCK) - RustySemaphore wins. ROCK crushes LIZARD
+17:49:04.024 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  2
+17:49:04.024 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  2
+17:49:04.024 [main] INFO  consoleLogger - Round 3: CurlyBraces (ROCK) VS RustySemaphore (LIZARD) - CurlyBraces wins. ROCK crushes LIZARD
+17:49:04.029 [main] INFO  consoleLogger - 
+Score Matrix:
+|                     |          a          | CaffeinatedCompiler |     CurlyBraces     |    RustySemaphore   |        Total        |
+
+17:49:58.626 [main] INFO  consoleLogger - Enter your name:
+17:50:01.339 [main] DEBUG fileLogger - Added player: a
+17:50:01.341 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:50:02.839 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:50:03.934 [main] DEBUG fileLogger - Rounds set to: 3
+17:50:03.935 [main] DEBUG fileLogger - Added player: CurlyBraces
+17:50:03.935 [main] DEBUG fileLogger - Added player: ExceptionExplorer
+17:50:03.935 [main] DEBUG fileLogger - Added player: JavaJuice
+17:50:03.935 [main] DEBUG fileLogger - Score matrix dimensions set to: [4][4][2]
+17:50:05.468 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:50:05.468 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:50:05.478 [main] INFO  consoleLogger - Round 1: a (ROCK) VS CurlyBraces (PAPER) - CurlyBraces wins. PAPER covers ROCK
+17:50:06.185 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+17:50:06.185 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+17:50:06.185 [main] INFO  consoleLogger - Round 1: a (ROCK) VS ExceptionExplorer (PAPER) - ExceptionExplorer wins. PAPER covers ROCK
+17:50:06.889 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  1
+17:50:06.889 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  1
+17:50:06.889 [main] INFO  consoleLogger - Round 1: a (ROCK) VS JavaJuice (LIZARD) - a wins. ROCK crushes LIZARD
+17:50:06.889 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+17:50:06.889 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+17:50:06.889 [main] INFO  consoleLogger - Round 1: CurlyBraces (SCISSORS) VS ExceptionExplorer (SPOCK) - ExceptionExplorer wins. SPOCK smashes SCISSORS
+17:50:06.889 [main] INFO  consoleLogger - Round 1: CurlyBraces (SPOCK) VS JavaJuice (SPOCK) - It's a draw.
+17:50:06.890 [main] INFO  consoleLogger - Round 1: ExceptionExplorer (SPOCK) VS JavaJuice (SPOCK) - It's a draw.
+17:50:07.519 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  2
+17:50:07.520 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  2
+17:50:07.520 [main] INFO  consoleLogger - Round 2: a (ROCK) VS CurlyBraces (SPOCK) - CurlyBraces wins. SPOCK vaporizes ROCK
+17:50:08.133 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+17:50:08.134 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+17:50:08.134 [main] INFO  consoleLogger - Round 2: a (ROCK) VS ExceptionExplorer (SCISSORS) - a wins. ROCK crushes SCISSORS
+17:50:08.749 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  2
+17:50:08.749 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  2
+17:50:08.750 [main] INFO  consoleLogger - Round 2: a (ROCK) VS JavaJuice (LIZARD) - a wins. ROCK crushes LIZARD
+17:50:08.750 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+17:50:08.750 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+17:50:08.750 [main] INFO  consoleLogger - Round 2: CurlyBraces (SPOCK) VS ExceptionExplorer (ROCK) - CurlyBraces wins. SPOCK vaporizes ROCK
+17:50:08.750 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  1
+17:50:08.750 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  1
+17:50:08.750 [main] INFO  consoleLogger - Round 2: CurlyBraces (ROCK) VS JavaJuice (SPOCK) - JavaJuice wins. SPOCK vaporizes ROCK
+17:50:08.750 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  1
+17:50:08.750 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  1
+17:50:08.750 [main] INFO  consoleLogger - Round 2: ExceptionExplorer (SPOCK) VS JavaJuice (SCISSORS) - ExceptionExplorer wins. SPOCK smashes SCISSORS
+17:50:09.394 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:50:09.394 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:50:09.394 [main] INFO  consoleLogger - Round 3: a (ROCK) VS CurlyBraces (LIZARD) - a wins. ROCK crushes LIZARD
+17:50:10.040 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  2
+17:50:10.040 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  2
+17:50:10.040 [main] INFO  consoleLogger - Round 3: a (ROCK) VS ExceptionExplorer (PAPER) - ExceptionExplorer wins. PAPER covers ROCK
+17:50:10.700 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  1
+17:50:10.700 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  1
+17:50:10.700 [main] INFO  consoleLogger - Round 3: a (ROCK) VS JavaJuice (PAPER) - JavaJuice wins. PAPER covers ROCK
+17:50:10.700 [main] INFO  consoleLogger - Round 3: CurlyBraces (PAPER) VS ExceptionExplorer (PAPER) - It's a draw.
+17:50:10.700 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  1
+17:50:10.700 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  1
+17:50:10.700 [main] INFO  consoleLogger - Round 3: CurlyBraces (SPOCK) VS JavaJuice (SCISSORS) - CurlyBraces wins. SPOCK smashes SCISSORS
+17:50:10.700 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  1
+17:50:10.700 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  1
+17:50:10.700 [main] INFO  consoleLogger - Round 3: ExceptionExplorer (LIZARD) VS JavaJuice (ROCK) - JavaJuice wins. ROCK crushes LIZARD
+17:50:10.705 [main] INFO  consoleLogger - 
+Score Matrix:|                   |         a         |    CurlyBraces    | ExceptionExplorer |     JavaJuice     |       Total       |
+
+17:51:42.404 [main] INFO  consoleLogger - Enter your name:
+17:51:44.376 [main] DEBUG fileLogger - Added player: a
+17:51:44.378 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:51:48.963 [main] INFO  consoleLogger - Enter your name:
+17:51:50.181 [main] DEBUG fileLogger - Added player: a
+17:51:50.182 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:51:51.470 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:51:52.339 [main] DEBUG fileLogger - Rounds set to: 2
+17:51:52.340 [main] DEBUG fileLogger - Added player: RustySemaphore
+17:51:52.341 [main] DEBUG fileLogger - Added player: JavaJuice
+17:51:52.341 [main] DEBUG fileLogger - Score matrix dimensions set to: [3][3][2]
+17:51:53.967 [main] INFO  consoleLogger - Round 1: a (ROCK) VS RustySemaphore (ROCK) - It's a draw.
+17:51:54.740 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+17:51:54.741 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+17:51:54.744 [main] INFO  consoleLogger - Round 1: a (ROCK) VS JavaJuice (SPOCK) - JavaJuice wins. SPOCK vaporizes ROCK
+17:51:54.744 [main] INFO  consoleLogger - Round 1: RustySemaphore (ROCK) VS JavaJuice (ROCK) - It's a draw.
+17:51:55.819 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:51:55.819 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:51:55.820 [main] INFO  consoleLogger - Round 2: a (ROCK) VS RustySemaphore (SCISSORS) - a wins. ROCK crushes SCISSORS
+17:51:56.719 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+17:51:56.719 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+17:51:56.719 [main] INFO  consoleLogger - Round 2: a (ROCK) VS JavaJuice (SCISSORS) - a wins. ROCK crushes SCISSORS
+17:51:56.720 [main] INFO  consoleLogger - Round 2: RustySemaphore (PAPER) VS JavaJuice (PAPER) - It's a draw.
+17:51:56.724 [main] INFO  consoleLogger - 
+Score Matrix:
+|                |        a       | RustySemaphore |    JavaJuice   |      Total     |
+17:53:23.026 [main] INFO  consoleLogger - Enter your name:
+17:53:27.216 [main] DEBUG fileLogger - Added player: 3
+17:53:27.217 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:53:28.370 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:53:29.240 [main] DEBUG fileLogger - Rounds set to: 3
+17:53:29.241 [main] DEBUG fileLogger - Added player: RuntimeRider
+17:53:29.241 [main] DEBUG fileLogger - Added player: ArraySlayer
+17:53:29.242 [main] DEBUG fileLogger - Added player: ByteDancer
+17:53:29.242 [main] DEBUG fileLogger - Score matrix dimensions set to: [4][4][2]
+17:53:30.669 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:53:30.669 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:53:30.680 [main] INFO  consoleLogger - Round 1: 3 (ROCK) VS RuntimeRider (SPOCK) - RuntimeRider wins. SPOCK vaporizes ROCK
+17:53:30.965 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+17:53:30.965 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+17:53:30.965 [main] INFO  consoleLogger - Round 1: 3 (ROCK) VS ArraySlayer (SCISSORS) - 3 wins. ROCK crushes SCISSORS
+17:53:31.265 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  1
+17:53:31.265 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  1
+17:53:31.265 [main] INFO  consoleLogger - Round 1: 3 (ROCK) VS ByteDancer (SCISSORS) - 3 wins. ROCK crushes SCISSORS
+17:53:31.265 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+17:53:31.266 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+17:53:31.266 [main] INFO  consoleLogger - Round 1: RuntimeRider (SPOCK) VS ArraySlayer (SCISSORS) - RuntimeRider wins. SPOCK smashes SCISSORS
+17:53:31.266 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  1
+17:53:31.266 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  1
+17:53:31.266 [main] INFO  consoleLogger - Round 1: RuntimeRider (SPOCK) VS ByteDancer (PAPER) - ByteDancer wins. PAPER disproves SPOCK
+17:53:31.266 [main] INFO  consoleLogger - Round 1: ArraySlayer (LIZARD) VS ByteDancer (LIZARD) - It's a draw.
+17:53:31.535 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:53:31.535 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:53:31.535 [main] INFO  consoleLogger - Round 2: 3 (ROCK) VS RuntimeRider (SCISSORS) - 3 wins. ROCK crushes SCISSORS
+17:53:32.736 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  2
+17:53:32.736 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  2
+17:53:32.736 [main] INFO  consoleLogger - Round 2: 3 (ROCK) VS ArraySlayer (SCISSORS) - 3 wins. ROCK crushes SCISSORS
+17:53:33.351 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  2
+17:53:33.351 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  2
+17:53:33.351 [main] INFO  consoleLogger - Round 2: 3 (ROCK) VS ByteDancer (SCISSORS) - 3 wins. ROCK crushes SCISSORS
+17:53:33.352 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+17:53:33.352 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+17:53:33.352 [main] INFO  consoleLogger - Round 2: RuntimeRider (ROCK) VS ArraySlayer (PAPER) - ArraySlayer wins. PAPER covers ROCK
+17:53:33.352 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  2
+17:53:33.352 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  2
+17:53:33.352 [main] INFO  consoleLogger - Round 2: RuntimeRider (PAPER) VS ByteDancer (LIZARD) - ByteDancer wins. LIZARD eats PAPER
+17:53:33.352 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  1
+17:53:33.352 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  1
+17:53:33.352 [main] INFO  consoleLogger - Round 2: ArraySlayer (SCISSORS) VS ByteDancer (SPOCK) - ByteDancer wins. SPOCK smashes SCISSORS
+17:53:33.845 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  2
+17:53:33.845 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  2
+17:53:33.845 [main] INFO  consoleLogger - Round 3: 3 (ROCK) VS RuntimeRider (LIZARD) - 3 wins. ROCK crushes LIZARD
+17:53:34.580 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  3
+17:53:34.581 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  3
+17:53:34.581 [main] INFO  consoleLogger - Round 3: 3 (ROCK) VS ArraySlayer (LIZARD) - 3 wins. ROCK crushes LIZARD
+17:53:35.256 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  3
+17:53:35.256 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  3
+17:53:35.256 [main] INFO  consoleLogger - Round 3: 3 (ROCK) VS ByteDancer (SCISSORS) - 3 wins. ROCK crushes SCISSORS
+17:53:35.256 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  2
+17:53:35.257 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  2
+17:53:35.257 [main] INFO  consoleLogger - Round 3: RuntimeRider (PAPER) VS ArraySlayer (ROCK) - RuntimeRider wins. PAPER covers ROCK
+17:53:35.257 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  3
+17:53:35.257 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  3
+17:53:35.257 [main] INFO  consoleLogger - Round 3: RuntimeRider (LIZARD) VS ByteDancer (SCISSORS) - ByteDancer wins. SCISSORS decapitates LIZARD
+17:53:35.259 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  2
+17:53:35.260 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  2
+17:53:35.260 [main] INFO  consoleLogger - Round 3: ArraySlayer (SPOCK) VS ByteDancer (LIZARD) - ByteDancer wins. LIZARD poisons SPOCK
+17:53:35.263 [main] INFO  consoleLogger - 
+Score Matrix:
+|               |       3       |  RuntimeRider |  ArraySlayer  |   ByteDancer  |     Total     |
+17:55:33.301 [main] INFO  consoleLogger - Enter your name:
+17:55:35.586 [main] DEBUG fileLogger - Added player: a
+17:55:35.588 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:55:36.395 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:55:36.908 [main] DEBUG fileLogger - Rounds set to: 3
+17:55:36.909 [main] DEBUG fileLogger - Added player: ArraySlayer
+17:55:36.909 [main] DEBUG fileLogger - Added player: BooleanBoss
+17:55:36.909 [main] DEBUG fileLogger - Added player: NoSuchElement
+17:55:36.909 [main] DEBUG fileLogger - Score matrix dimensions set to: [4][4][2]
+17:55:37.959 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+17:55:37.959 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+17:55:37.969 [main] INFO  consoleLogger - Round 1: a (ROCK) VS ArraySlayer (LIZARD) - a wins. ROCK crushes LIZARD
+17:55:38.466 [main] INFO  consoleLogger - Round 1: a (ROCK) VS BooleanBoss (ROCK) - It's a draw.
+17:55:39.022 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  1
+17:55:39.022 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  1
+17:55:39.022 [main] INFO  consoleLogger - Round 1: a (ROCK) VS NoSuchElement (LIZARD) - a wins. ROCK crushes LIZARD
+17:55:39.022 [main] INFO  consoleLogger - Round 1: ArraySlayer (SPOCK) VS BooleanBoss (SPOCK) - It's a draw.
+17:55:39.022 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  1
+17:55:39.023 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  1
+17:55:39.023 [main] INFO  consoleLogger - Round 1: ArraySlayer (SPOCK) VS NoSuchElement (SCISSORS) - ArraySlayer wins. SPOCK smashes SCISSORS
+17:55:39.023 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  1
+17:55:39.023 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  1
+17:55:39.023 [main] INFO  consoleLogger - Round 1: BooleanBoss (LIZARD) VS NoSuchElement (SCISSORS) - NoSuchElement wins. SCISSORS decapitates LIZARD
+17:55:39.516 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:55:39.516 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:55:39.516 [main] INFO  consoleLogger - Round 2: a (ROCK) VS ArraySlayer (SPOCK) - ArraySlayer wins. SPOCK vaporizes ROCK
+17:55:40.146 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+17:55:40.146 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+17:55:40.146 [main] INFO  consoleLogger - Round 2: a (ROCK) VS BooleanBoss (LIZARD) - a wins. ROCK crushes LIZARD
+17:55:40.671 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  1
+17:55:40.671 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  1
+17:55:40.671 [main] INFO  consoleLogger - Round 2: a (ROCK) VS NoSuchElement (PAPER) - NoSuchElement wins. PAPER covers ROCK
+17:55:40.671 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+17:55:40.671 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+17:55:40.671 [main] INFO  consoleLogger - Round 2: ArraySlayer (SPOCK) VS BooleanBoss (LIZARD) - BooleanBoss wins. LIZARD poisons SPOCK
+17:55:40.672 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  2
+17:55:40.672 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  2
+17:55:40.672 [main] INFO  consoleLogger - Round 2: ArraySlayer (PAPER) VS NoSuchElement (SPOCK) - ArraySlayer wins. PAPER disproves SPOCK
+17:55:40.672 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  1
+17:55:40.672 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  1
+17:55:40.672 [main] INFO  consoleLogger - Round 2: BooleanBoss (SCISSORS) VS NoSuchElement (LIZARD) - BooleanBoss wins. SCISSORS decapitates LIZARD
+17:55:41.195 [main] INFO  consoleLogger - Round 3: a (ROCK) VS ArraySlayer (ROCK) - It's a draw.
+17:55:41.931 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  2
+17:55:41.932 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  2
+17:55:41.932 [main] INFO  consoleLogger - Round 3: a (ROCK) VS BooleanBoss (LIZARD) - a wins. ROCK crushes LIZARD
+17:55:42.650 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  2
+17:55:42.650 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  2
+17:55:42.650 [main] INFO  consoleLogger - Round 3: a (ROCK) VS NoSuchElement (SCISSORS) - a wins. ROCK crushes SCISSORS
+17:55:42.651 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+17:55:42.651 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+17:55:42.651 [main] INFO  consoleLogger - Round 3: ArraySlayer (LIZARD) VS BooleanBoss (SPOCK) - ArraySlayer wins. LIZARD poisons SPOCK
+17:55:42.651 [main] INFO  consoleLogger - Round 3: ArraySlayer (SPOCK) VS NoSuchElement (SPOCK) - It's a draw.
+17:55:42.651 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  2
+17:55:42.651 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  2
+17:55:42.651 [main] INFO  consoleLogger - Round 3: BooleanBoss (PAPER) VS NoSuchElement (SPOCK) - BooleanBoss wins. PAPER disproves SPOCK
+17:55:42.655 [main] INFO  consoleLogger - 
+Score Matrix:
+|               |       a       |  ArraySlayer  |  BooleanBoss  | NoSuchElement |     Total     |
+17:55:42.656 [main] INFO  consoleLogger - |       5       |
+
+17:55:42.657 [main] INFO  consoleLogger - |       4       |
+
+17:55:42.657 [main] INFO  consoleLogger - |       3       |
+
+17:55:42.658 [main] INFO  consoleLogger - |       2       |
+
+17:56:26.818 [main] INFO  consoleLogger - Enter your name:
+17:56:29.215 [main] DEBUG fileLogger - Added player: 3
+17:56:29.216 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+17:56:29.691 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+17:56:30.425 [main] DEBUG fileLogger - Rounds set to: 3
+17:56:30.426 [main] DEBUG fileLogger - Added player: CaffeinatedCompiler
+17:56:30.426 [main] DEBUG fileLogger - Added player: RustySemaphore
+17:56:30.427 [main] DEBUG fileLogger - Added player: ArraySlayer
+17:56:30.427 [main] DEBUG fileLogger - Score matrix dimensions set to: [4][4][2]
+17:56:31.203 [main] INFO  consoleLogger - Round 1: 3 (ROCK) VS CaffeinatedCompiler (ROCK) - It's a draw.
+17:56:31.478 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+17:56:31.478 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+17:56:31.481 [main] INFO  consoleLogger - Round 1: 3 (ROCK) VS RustySemaphore (LIZARD) - 3 wins. ROCK crushes LIZARD
+17:56:31.672 [main] INFO  consoleLogger - Round 1: 3 (ROCK) VS ArraySlayer (ROCK) - It's a draw.
+17:56:31.672 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+17:56:31.672 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+17:56:31.672 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (ROCK) VS RustySemaphore (SPOCK) - RustySemaphore wins. SPOCK vaporizes ROCK
+17:56:31.673 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  1
+17:56:31.673 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  1
+17:56:31.673 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (ROCK) VS ArraySlayer (SPOCK) - ArraySlayer wins. SPOCK vaporizes ROCK
+17:56:31.673 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  1
+17:56:31.673 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  1
+17:56:31.673 [main] INFO  consoleLogger - Round 1: RustySemaphore (SCISSORS) VS ArraySlayer (PAPER) - RustySemaphore wins. SCISSORS cuts PAPER
+17:56:31.866 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+17:56:31.866 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+17:56:31.866 [main] INFO  consoleLogger - Round 2: 3 (ROCK) VS CaffeinatedCompiler (PAPER) - CaffeinatedCompiler wins. PAPER covers ROCK
+17:56:32.271 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+17:56:32.271 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+17:56:32.271 [main] INFO  consoleLogger - Round 2: 3 (ROCK) VS RustySemaphore (SPOCK) - RustySemaphore wins. SPOCK vaporizes ROCK
+17:56:32.481 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  1
+17:56:32.481 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  1
+17:56:32.481 [main] INFO  consoleLogger - Round 2: 3 (ROCK) VS ArraySlayer (SPOCK) - ArraySlayer wins. SPOCK vaporizes ROCK
+17:56:32.482 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+17:56:32.482 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+17:56:32.482 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (SCISSORS) VS RustySemaphore (LIZARD) - CaffeinatedCompiler wins. SCISSORS decapitates LIZARD
+17:56:32.482 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  1
+17:56:32.482 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  1
+17:56:32.482 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (PAPER) VS ArraySlayer (ROCK) - CaffeinatedCompiler wins. PAPER covers ROCK
+17:56:32.482 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  1
+17:56:32.482 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  1
+17:56:32.482 [main] INFO  consoleLogger - Round 2: RustySemaphore (SPOCK) VS ArraySlayer (PAPER) - ArraySlayer wins. PAPER disproves SPOCK
+17:56:32.692 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  2
+17:56:32.693 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  2
+17:56:32.693 [main] INFO  consoleLogger - Round 3: 3 (ROCK) VS CaffeinatedCompiler (PAPER) - CaffeinatedCompiler wins. PAPER covers ROCK
+17:56:33.486 [main] INFO  consoleLogger - Round 3: 3 (ROCK) VS RustySemaphore (ROCK) - It's a draw.
+17:56:34.236 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  2
+17:56:34.237 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  2
+17:56:34.237 [main] INFO  consoleLogger - Round 3: 3 (ROCK) VS ArraySlayer (SPOCK) - ArraySlayer wins. SPOCK vaporizes ROCK
+17:56:34.237 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  2
+17:56:34.237 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  2
+17:56:34.237 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (SPOCK) VS RustySemaphore (SCISSORS) - CaffeinatedCompiler wins. SPOCK smashes SCISSORS
+17:56:34.237 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  2
+17:56:34.237 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  2
+17:56:34.237 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (LIZARD) VS ArraySlayer (ROCK) - ArraySlayer wins. ROCK crushes LIZARD
+17:56:34.237 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  2
+17:56:34.237 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  2
+17:56:34.237 [main] INFO  consoleLogger - Round 3: RustySemaphore (LIZARD) VS ArraySlayer (PAPER) - RustySemaphore wins. LIZARD eats PAPER
+17:56:34.241 [main] INFO  consoleLogger - 
+Score Matrix:
+|                     |          3          | CaffeinatedCompiler |    RustySemaphore   |     ArraySlayer     |        Total        |
+17:56:34.242 [main] INFO  consoleLogger - |          1          |
+17:56:34.242 [main] INFO  consoleLogger - |          5          |
+17:56:34.243 [main] INFO  consoleLogger - |          4          |
+17:56:34.243 [main] INFO  consoleLogger - |          5          |
+18:01:20.505 [main] INFO  consoleLogger - Enter your name:
+18:01:22.689 [main] DEBUG fileLogger - Added player: a
+18:01:22.690 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:01:24.204 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:01:24.803 [main] DEBUG fileLogger - Rounds set to: 3
+18:01:24.805 [main] DEBUG fileLogger - Added player: NoSuchElement
+18:01:24.805 [main] DEBUG fileLogger - Added player: BooleanBoss
+18:01:24.805 [main] DEBUG fileLogger - Added player: Codezilla
+18:01:24.805 [main] DEBUG fileLogger - Score matrix dimensions set to: [4][4][2]
+18:01:26.366 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+18:01:26.366 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+18:01:26.376 [main] INFO  consoleLogger - Round 1: a (ROCK) VS NoSuchElement (SCISSORS) - a wins. ROCK crushes SCISSORS
+18:01:30.101 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+18:01:30.101 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+18:01:30.101 [main] INFO  consoleLogger - Round 1: a (ROCK) VS BooleanBoss (PAPER) - BooleanBoss wins. PAPER covers ROCK
+18:01:31.013 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  1
+18:01:31.013 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  1
+18:01:31.014 [main] INFO  consoleLogger - Round 1: a (ROCK) VS Codezilla (SPOCK) - Codezilla wins. SPOCK vaporizes ROCK
+18:01:31.014 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+18:01:31.014 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+18:01:31.014 [main] INFO  consoleLogger - Round 1: NoSuchElement (PAPER) VS BooleanBoss (SPOCK) - NoSuchElement wins. PAPER disproves SPOCK
+18:01:31.014 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  1
+18:01:31.014 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  1
+18:01:31.014 [main] INFO  consoleLogger - Round 1: NoSuchElement (LIZARD) VS Codezilla (PAPER) - NoSuchElement wins. LIZARD eats PAPER
+18:01:31.014 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  1
+18:01:31.014 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  1
+18:01:31.014 [main] INFO  consoleLogger - Round 1: BooleanBoss (ROCK) VS Codezilla (SPOCK) - Codezilla wins. SPOCK vaporizes ROCK
+18:01:32.289 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  2
+18:01:32.289 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  2
+18:01:32.289 [main] INFO  consoleLogger - Round 2: a (ROCK) VS NoSuchElement (SCISSORS) - a wins. ROCK crushes SCISSORS
+18:01:33.022 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+18:01:33.023 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+18:01:33.023 [main] INFO  consoleLogger - Round 2: a (ROCK) VS BooleanBoss (LIZARD) - a wins. ROCK crushes LIZARD
+18:01:33.698 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  2
+18:01:33.698 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  2
+18:01:33.698 [main] INFO  consoleLogger - Round 2: a (ROCK) VS Codezilla (SPOCK) - Codezilla wins. SPOCK vaporizes ROCK
+18:01:33.698 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+18:01:33.698 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+18:01:33.698 [main] INFO  consoleLogger - Round 2: NoSuchElement (SPOCK) VS BooleanBoss (LIZARD) - BooleanBoss wins. LIZARD poisons SPOCK
+18:01:33.699 [main] INFO  consoleLogger - Round 2: NoSuchElement (ROCK) VS Codezilla (ROCK) - It's a draw.
+18:01:33.699 [main] INFO  consoleLogger - Round 2: BooleanBoss (SPOCK) VS Codezilla (SPOCK) - It's a draw.
+18:01:34.433 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  3
+18:01:34.434 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  3
+18:01:34.434 [main] INFO  consoleLogger - Round 3: a (ROCK) VS NoSuchElement (LIZARD) - a wins. ROCK crushes LIZARD
+18:01:35.183 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  2
+18:01:35.183 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  2
+18:01:35.183 [main] INFO  consoleLogger - Round 3: a (ROCK) VS BooleanBoss (SCISSORS) - a wins. ROCK crushes SCISSORS
+18:01:35.918 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  3
+18:01:35.919 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  3
+18:01:35.919 [main] INFO  consoleLogger - Round 3: a (ROCK) VS Codezilla (SPOCK) - Codezilla wins. SPOCK vaporizes ROCK
+18:01:35.919 [main] INFO  consoleLogger - Round 3: NoSuchElement (ROCK) VS BooleanBoss (ROCK) - It's a draw.
+18:01:35.919 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  2
+18:01:35.919 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  2
+18:01:35.919 [main] INFO  consoleLogger - Round 3: NoSuchElement (PAPER) VS Codezilla (ROCK) - NoSuchElement wins. PAPER covers ROCK
+18:01:35.919 [main] INFO  consoleLogger - Round 3: BooleanBoss (ROCK) VS Codezilla (ROCK) - It's a draw.
+18:01:35.923 [main] INFO  consoleLogger - 
+Score Matrix:
+|               |       a       | NoSuchElement |  BooleanBoss  |   Codezilla   |     Total     |
+18:01:35.923 [main] INFO  consoleLogger - |       a       
+18:01:35.923 [main] INFO  consoleLogger - |       -       
+18:01:35.924 [main] INFO  consoleLogger - |     3 - 0     
+18:01:35.924 [main] INFO  consoleLogger - |     2 - 1     
+18:01:35.924 [main] INFO  consoleLogger - |     0 - 3     
+18:01:35.924 [main] INFO  consoleLogger - |       5       |
+18:01:35.924 [main] INFO  consoleLogger - | NoSuchElement 
+18:01:35.924 [main] INFO  consoleLogger - |     0 - 3     
+18:01:35.924 [main] INFO  consoleLogger - |       -       
+18:01:35.924 [main] INFO  consoleLogger - |     1 - 1     
+18:01:35.925 [main] INFO  consoleLogger - |     2 - 0     
+18:01:35.925 [main] INFO  consoleLogger - |       3       |
+18:01:35.925 [main] INFO  consoleLogger - |  BooleanBoss  
+18:01:35.925 [main] INFO  consoleLogger - |     1 - 2     
+18:01:35.925 [main] INFO  consoleLogger - |     1 - 1     
+18:01:35.925 [main] INFO  consoleLogger - |       -       
+18:01:35.925 [main] INFO  consoleLogger - |     0 - 1     
+18:01:35.925 [main] INFO  consoleLogger - |       2       |
+18:01:35.925 [main] INFO  consoleLogger - |   Codezilla   
+18:01:35.925 [main] INFO  consoleLogger - |     3 - 0     
+18:01:35.926 [main] INFO  consoleLogger - |     0 - 2     
+18:01:35.926 [main] INFO  consoleLogger - |     1 - 0     
+18:01:35.926 [main] INFO  consoleLogger - |       -       
+18:01:35.926 [main] INFO  consoleLogger - |       4       |
+18:02:16.865 [main] INFO  consoleLogger - Enter your name:
+18:02:19.254 [main] DEBUG fileLogger - Added player: r
+18:02:19.255 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:02:20.873 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:02:21.294 [main] DEBUG fileLogger - Rounds set to: 3
+18:02:21.295 [main] DEBUG fileLogger - Added player: Heapster
+18:02:21.295 [main] DEBUG fileLogger - Added player: RustySemaphore
+18:02:21.295 [main] DEBUG fileLogger - Added player: NoSuchElement
+18:02:21.295 [main] DEBUG fileLogger - Score matrix dimensions set to: [4][4][2]
+18:02:22.302 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+18:02:22.302 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+18:02:22.312 [main] INFO  consoleLogger - Round 1: r (ROCK) VS Heapster (PAPER) - Heapster wins. PAPER covers ROCK
+18:02:22.524 [main] INFO  consoleLogger - Round 1: r (ROCK) VS RustySemaphore (ROCK) - It's a draw.
+18:02:22.689 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  1
+18:02:22.690 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  1
+18:02:22.690 [main] INFO  consoleLogger - Round 1: r (ROCK) VS NoSuchElement (PAPER) - NoSuchElement wins. PAPER covers ROCK
+18:02:22.690 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+18:02:22.690 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+18:02:22.690 [main] INFO  consoleLogger - Round 1: Heapster (LIZARD) VS RustySemaphore (PAPER) - Heapster wins. LIZARD eats PAPER
+18:02:22.690 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  1
+18:02:22.690 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  1
+18:02:22.690 [main] INFO  consoleLogger - Round 1: Heapster (SCISSORS) VS NoSuchElement (ROCK) - NoSuchElement wins. ROCK crushes SCISSORS
+18:02:22.691 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  1
+18:02:22.691 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  1
+18:02:22.691 [main] INFO  consoleLogger - Round 1: RustySemaphore (SPOCK) VS NoSuchElement (PAPER) - NoSuchElement wins. PAPER disproves SPOCK
+18:02:22.868 [main] INFO  consoleLogger - Round 2: r (ROCK) VS Heapster (ROCK) - It's a draw.
+18:02:23.034 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+18:02:23.034 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+18:02:23.034 [main] INFO  consoleLogger - Round 2: r (ROCK) VS RustySemaphore (PAPER) - RustySemaphore wins. PAPER covers ROCK
+18:02:23.213 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  1
+18:02:23.214 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  1
+18:02:23.214 [main] INFO  consoleLogger - Round 2: r (ROCK) VS NoSuchElement (SCISSORS) - r wins. ROCK crushes SCISSORS
+18:02:23.214 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  2
+18:02:23.214 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  2
+18:02:23.214 [main] INFO  consoleLogger - Round 2: Heapster (SCISSORS) VS RustySemaphore (LIZARD) - Heapster wins. SCISSORS decapitates LIZARD
+18:02:23.214 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  2
+18:02:23.214 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  2
+18:02:23.214 [main] INFO  consoleLogger - Round 2: Heapster (ROCK) VS NoSuchElement (PAPER) - NoSuchElement wins. PAPER covers ROCK
+18:02:23.214 [main] INFO  consoleLogger - Round 2: RustySemaphore (LIZARD) VS NoSuchElement (LIZARD) - It's a draw.
+18:02:23.545 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+18:02:23.545 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+18:02:23.545 [main] INFO  consoleLogger - Round 3: r (ROCK) VS Heapster (SCISSORS) - r wins. ROCK crushes SCISSORS
+18:02:23.693 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  2
+18:02:23.693 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  2
+18:02:23.694 [main] INFO  consoleLogger - Round 3: r (ROCK) VS RustySemaphore (SPOCK) - RustySemaphore wins. SPOCK vaporizes ROCK
+18:02:24.473 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  2
+18:02:24.474 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  2
+18:02:24.474 [main] INFO  consoleLogger - Round 3: r (ROCK) VS NoSuchElement (SPOCK) - NoSuchElement wins. SPOCK vaporizes ROCK
+18:02:24.474 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  3
+18:02:24.474 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  3
+18:02:24.474 [main] INFO  consoleLogger - Round 3: Heapster (LIZARD) VS RustySemaphore (SPOCK) - Heapster wins. LIZARD poisons SPOCK
+18:02:24.474 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  3
+18:02:24.474 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  3
+18:02:24.474 [main] INFO  consoleLogger - Round 3: Heapster (ROCK) VS NoSuchElement (SPOCK) - NoSuchElement wins. SPOCK vaporizes ROCK
+18:02:24.474 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  2
+18:02:24.474 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  2
+18:02:24.474 [main] INFO  consoleLogger - Round 3: RustySemaphore (LIZARD) VS NoSuchElement (SCISSORS) - NoSuchElement wins. SCISSORS decapitates LIZARD
+18:02:24.478 [main] INFO  consoleLogger - 
+Score Matrix:
+|                |        r       |    Heapster    | RustySemaphore |  NoSuchElement |      Total     |
+18:02:24.479 [main] INFO  consoleLogger - |        2       |
+18:02:24.480 [main] INFO  consoleLogger - |        4       |
+18:02:24.481 [main] INFO  consoleLogger - |        2       |
+18:02:24.481 [main] INFO  consoleLogger - |        7       |
+18:06:28.467 [main] INFO  consoleLogger - Enter your name:
+18:06:30.566 [main] DEBUG fileLogger - Added player: a
+18:06:30.567 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:06:32.245 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:06:33.385 [main] DEBUG fileLogger - Rounds set to: 2
+18:06:33.386 [main] DEBUG fileLogger - Added player: LambdaLuchador
+18:06:33.386 [main] DEBUG fileLogger - Added player: RuntimeRider
+18:06:33.386 [main] DEBUG fileLogger - Score matrix dimensions set to: [3][3][2]
+18:06:34.904 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+18:06:34.904 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+18:06:34.916 [main] INFO  consoleLogger - Round 1: a (ROCK) VS LambdaLuchador (SCISSORS) - a wins. ROCK crushes SCISSORS
+18:06:35.531 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+18:06:35.532 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+18:06:35.532 [main] INFO  consoleLogger - Round 1: a (ROCK) VS RuntimeRider (PAPER) - RuntimeRider wins. PAPER covers ROCK
+18:06:35.532 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+18:06:35.532 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+18:06:35.532 [main] INFO  consoleLogger - Round 1: LambdaLuchador (SPOCK) VS RuntimeRider (SCISSORS) - LambdaLuchador wins. SPOCK smashes SCISSORS
+18:06:36.160 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  2
+18:06:36.160 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  2
+18:06:36.160 [main] INFO  consoleLogger - Round 2: a (ROCK) VS LambdaLuchador (SCISSORS) - a wins. ROCK crushes SCISSORS
+18:06:36.804 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+18:06:36.805 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+18:06:36.805 [main] INFO  consoleLogger - Round 2: a (ROCK) VS RuntimeRider (LIZARD) - a wins. ROCK crushes LIZARD
+18:06:36.805 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+18:06:36.805 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+18:06:36.805 [main] INFO  consoleLogger - Round 2: LambdaLuchador (SPOCK) VS RuntimeRider (LIZARD) - RuntimeRider wins. LIZARD poisons SPOCK
+18:06:36.809 [main] INFO  consoleLogger - 
+Score Matrix:
+|                |        a       | LambdaLuchador |  RuntimeRider  |      Total     |
+18:06:36.810 [main] INFO  consoleLogger - |        3       |
+18:06:36.810 [main] INFO  consoleLogger - |        1       |
+18:06:36.811 [main] INFO  consoleLogger - |        2       |
+18:09:59.303 [main] INFO  consoleLogger - Enter your name:
+18:10:01.693 [main] DEBUG fileLogger - Added player: a
+18:10:01.694 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:10:02.382 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:10:02.906 [main] DEBUG fileLogger - Rounds set to: 2
+18:10:02.907 [main] DEBUG fileLogger - Added player: RustySemaphore
+18:10:02.907 [main] DEBUG fileLogger - Added player: SyntaxSniper
+18:10:02.907 [main] DEBUG fileLogger - Score matrix dimensions set to: [3][3][2]
+18:10:04.348 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 1 new score:  1
+18:10:04.348 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 0 new score:  1
+18:10:04.358 [main] INFO  consoleLogger - Round 1: a (ROCK) VS RustySemaphore (PAPER) - RustySemaphore wins. PAPER covers ROCK
+18:10:05.022 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 0 new score:  1
+18:10:05.022 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 1 new score:  1
+18:10:05.023 [main] INFO  consoleLogger - Round 1: a (ROCK) VS SyntaxSniper (LIZARD) - a wins. ROCK crushes LIZARD
+18:10:05.023 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+18:10:05.023 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+18:10:05.023 [main] INFO  consoleLogger - Round 1: RustySemaphore (PAPER) VS SyntaxSniper (SCISSORS) - SyntaxSniper wins. SCISSORS cuts PAPER
+18:10:06.087 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+18:10:06.087 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+18:10:06.087 [main] INFO  consoleLogger - Round 2: a (ROCK) VS RustySemaphore (LIZARD) - a wins. ROCK crushes LIZARD
+18:10:06.835 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+18:10:06.835 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+18:10:06.835 [main] INFO  consoleLogger - Round 2: a (ROCK) VS SyntaxSniper (SPOCK) - SyntaxSniper wins. SPOCK vaporizes ROCK
+18:10:06.835 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  2
+18:10:06.835 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  2
+18:10:06.835 [main] INFO  consoleLogger - Round 2: RustySemaphore (ROCK) VS SyntaxSniper (PAPER) - SyntaxSniper wins. PAPER covers ROCK
+18:10:06.839 [main] INFO  consoleLogger - 
+Score Matrix:
+|                |        a       | RustySemaphore |  SyntaxSniper  |      Total     |
+18:10:06.840 [main] INFO  consoleLogger - |        2       |
+18:10:06.840 [main] INFO  consoleLogger - |        1       |
+18:10:06.841 [main] INFO  consoleLogger - |        3       |
+18:12:34.583 [main] INFO  consoleLogger - Enter your name:
+18:12:36.404 [main] DEBUG fileLogger - Added player: a
+18:12:36.405 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:12:38.022 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:12:38.788 [main] DEBUG fileLogger - Rounds set to: 2
+18:12:38.789 [main] DEBUG fileLogger - Added player: Codezilla
+18:12:38.789 [main] DEBUG fileLogger - Added player: Heapster
+18:12:38.789 [main] DEBUG fileLogger - Score matrix dimensions set to: [3][3][2]
+18:12:40.395 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+18:12:40.395 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+18:12:40.407 [main] INFO  consoleLogger - Round 1: a (ROCK) VS Codezilla (LIZARD) - a wins. ROCK crushes LIZARD
+18:12:41.231 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+18:12:41.232 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+18:12:41.232 [main] INFO  consoleLogger - Round 1: a (ROCK) VS Heapster (SPOCK) - Heapster wins. SPOCK vaporizes ROCK
+18:12:41.232 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+18:12:41.232 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+18:12:41.232 [main] INFO  consoleLogger - Round 1: Codezilla (ROCK) VS Heapster (PAPER) - Heapster wins. PAPER covers ROCK
+18:12:42.042 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  2
+18:12:42.042 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  2
+18:12:42.043 [main] INFO  consoleLogger - Round 2: a (ROCK) VS Codezilla (LIZARD) - a wins. ROCK crushes LIZARD
+18:12:42.746 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  2
+18:12:42.746 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  2
+18:12:42.746 [main] INFO  consoleLogger - Round 2: a (ROCK) VS Heapster (SPOCK) - Heapster wins. SPOCK vaporizes ROCK
+18:12:42.747 [main] INFO  consoleLogger - Round 2: Codezilla (PAPER) VS Heapster (PAPER) - It's a draw.
+18:12:42.751 [main] INFO  consoleLogger - 
+Score Matrix:
+|               |       a       |   Codezilla   |    Heapster   |     Total     |
+18:12:42.752 [main] INFO  consoleLogger - |       a       |       -       |     2 - 0     |     0 - 2     |       2       |
+18:12:42.752 [main] INFO  consoleLogger - |   Codezilla   |     0 - 2     |       -       |     0 - 1     |       0       |
+18:12:42.752 [main] INFO  consoleLogger - |    Heapster   |     2 - 0     |     1 - 0     |       -       |       3       |
+18:22:38.037 [main] INFO  consoleLogger - Enter your name:
+18:22:42.075 [main] DEBUG fileLogger - Added player: Andris
+18:22:42.077 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:22:43.845 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:22:46.935 [main] DEBUG fileLogger - Rounds set to: 2
+18:22:46.936 [main] DEBUG fileLogger - Added player: Codezilla
+18:22:46.936 [main] DEBUG fileLogger - Added player: RustySemaphore
+18:22:46.936 [main] DEBUG fileLogger - Score matrix dimensions set to: [3][3][2]
+18:22:57.034 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+18:22:57.035 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+18:22:57.045 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS Codezilla (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:22:59.236 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+18:22:59.236 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+18:22:59.236 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS RustySemaphore (SPOCK) - RustySemaphore wins. SPOCK vaporizes ROCK
+18:22:59.236 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+18:22:59.237 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+18:22:59.237 [main] INFO  consoleLogger - Round 1: Codezilla (SCISSORS) VS RustySemaphore (SPOCK) - RustySemaphore wins. SPOCK smashes SCISSORS
+18:23:00.781 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  2
+18:23:00.781 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  2
+18:23:00.781 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS Codezilla (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:23:02.312 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  2
+18:23:02.312 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  2
+18:23:02.312 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS RustySemaphore (SPOCK) - RustySemaphore wins. SPOCK vaporizes ROCK
+18:23:02.312 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+18:23:02.312 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+18:23:02.312 [main] INFO  consoleLogger - Round 2: Codezilla (PAPER) VS RustySemaphore (ROCK) - Codezilla wins. PAPER covers ROCK
+18:23:02.316 [main] INFO  consoleLogger - 
+Score Matrix:
+|                |     Andris     |    Codezilla   | RustySemaphore |      Total     |
+18:23:02.317 [main] INFO  consoleLogger - |     Andris     |        -       |      2 - 0     |      0 - 2     |        2       |
+18:23:02.317 [main] INFO  consoleLogger - |    Codezilla   |      0 - 2     |        -       |      1 - 1     |        1       |
+18:23:02.318 [main] INFO  consoleLogger - | RustySemaphore |      2 - 0     |      1 - 1     |        -       |        3       |
+18:23:02.319 [main] INFO  consoleLogger - Winner: RustySemaphore
+18:26:20.681 [main] INFO  consoleLogger - Enter your name:
+18:28:50.256 [main] DEBUG fileLogger - Added player: Andris
+18:28:50.258 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:28:58.339 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:29:02.613 [main] DEBUG fileLogger - Rounds set to: 5
+18:29:02.615 [main] DEBUG fileLogger - Added player: RustySemaphore
+18:29:02.615 [main] DEBUG fileLogger - Added player: ByteDancer
+18:29:02.615 [main] DEBUG fileLogger - Added player: CaffeinatedCompiler
+18:29:02.615 [main] DEBUG fileLogger - Added player: SyntaxSniper
+18:29:02.615 [main] DEBUG fileLogger - Added player: InfiniteLoop
+18:29:02.615 [main] DEBUG fileLogger - Added player: ExceptionExplorer
+18:29:02.615 [main] DEBUG fileLogger - Added player: RuntimeRider
+18:29:02.615 [main] DEBUG fileLogger - Added player: LambdaLuchador
+18:29:02.615 [main] DEBUG fileLogger - Added player: JavaJuice
+18:29:02.615 [main] DEBUG fileLogger - Score matrix dimensions set to: [10][10][2]
+18:29:02.615 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:04.882 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+18:29:04.882 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+18:29:04.891 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS RustySemaphore (SCISSORS) - Andris wins. ROCK crushes SCISSORS
+18:29:04.892 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:08.627 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS ByteDancer (ROCK) - It's a draw.
+18:29:08.628 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:08.913 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  1
+18:29:08.913 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  1
+18:29:08.913 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS CaffeinatedCompiler (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:29:08.913 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:09.138 [main] DEBUG fileLogger - Increased score in coordinates: 0 4 1 new score:  1
+18:29:09.138 [main] DEBUG fileLogger - Increased score in coordinates: 4 0 0 new score:  1
+18:29:09.139 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS SyntaxSniper (SPOCK) - SyntaxSniper wins. SPOCK vaporizes ROCK
+18:29:09.139 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:09.333 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS InfiniteLoop (ROCK) - It's a draw.
+18:29:09.333 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:09.602 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:09.828 [main] DEBUG fileLogger - Increased score in coordinates: 0 6 0 new score:  1
+18:29:09.828 [main] DEBUG fileLogger - Increased score in coordinates: 6 0 1 new score:  1
+18:29:09.828 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS ExceptionExplorer (SCISSORS) - Andris wins. ROCK crushes SCISSORS
+18:29:09.828 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:10.023 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS RuntimeRider (ROCK) - It's a draw.
+18:29:10.023 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:10.203 [main] DEBUG fileLogger - Increased score in coordinates: 0 8 1 new score:  1
+18:29:10.204 [main] DEBUG fileLogger - Increased score in coordinates: 8 0 0 new score:  1
+18:29:10.204 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS LambdaLuchador (PAPER) - LambdaLuchador wins. PAPER covers ROCK
+18:29:10.204 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:10.401 [main] DEBUG fileLogger - Increased score in coordinates: 0 9 0 new score:  1
+18:29:10.401 [main] DEBUG fileLogger - Increased score in coordinates: 9 0 1 new score:  1
+18:29:10.401 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS JavaJuice (SCISSORS) - Andris wins. ROCK crushes SCISSORS
+18:29:10.401 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  1
+18:29:10.401 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  1
+18:29:10.401 [main] INFO  consoleLogger - Round 1: RustySemaphore (ROCK) VS ByteDancer (SCISSORS) - RustySemaphore wins. ROCK crushes SCISSORS
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  1
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  1
+18:29:10.402 [main] INFO  consoleLogger - Round 1: RustySemaphore (PAPER) VS CaffeinatedCompiler (SCISSORS) - CaffeinatedCompiler wins. SCISSORS cuts PAPER
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 1 4 0 new score:  1
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 4 1 1 new score:  1
+18:29:10.402 [main] INFO  consoleLogger - Round 1: RustySemaphore (SCISSORS) VS SyntaxSniper (PAPER) - RustySemaphore wins. SCISSORS cuts PAPER
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 1 5 1 new score:  1
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 5 1 0 new score:  1
+18:29:10.402 [main] INFO  consoleLogger - Round 1: RustySemaphore (PAPER) VS InfiniteLoop (SCISSORS) - InfiniteLoop wins. SCISSORS cuts PAPER
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 1 6 1 new score:  1
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 6 1 0 new score:  1
+18:29:10.402 [main] INFO  consoleLogger - Round 1: RustySemaphore (ROCK) VS ExceptionExplorer (SPOCK) - ExceptionExplorer wins. SPOCK vaporizes ROCK
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 1 7 0 new score:  1
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 7 1 1 new score:  1
+18:29:10.402 [main] INFO  consoleLogger - Round 1: RustySemaphore (SCISSORS) VS RuntimeRider (LIZARD) - RustySemaphore wins. SCISSORS decapitates LIZARD
+18:29:10.402 [main] INFO  consoleLogger - Round 1: RustySemaphore (ROCK) VS LambdaLuchador (ROCK) - It's a draw.
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 1 9 1 new score:  1
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 9 1 0 new score:  1
+18:29:10.402 [main] INFO  consoleLogger - Round 1: RustySemaphore (LIZARD) VS JavaJuice (ROCK) - JavaJuice wins. ROCK crushes LIZARD
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  1
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  1
+18:29:10.402 [main] INFO  consoleLogger - Round 1: ByteDancer (PAPER) VS CaffeinatedCompiler (SCISSORS) - CaffeinatedCompiler wins. SCISSORS cuts PAPER
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 2 4 1 new score:  1
+18:29:10.402 [main] DEBUG fileLogger - Increased score in coordinates: 4 2 0 new score:  1
+18:29:10.403 [main] INFO  consoleLogger - Round 1: ByteDancer (ROCK) VS SyntaxSniper (SPOCK) - SyntaxSniper wins. SPOCK vaporizes ROCK
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 2 5 1 new score:  1
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 5 2 0 new score:  1
+18:29:10.403 [main] INFO  consoleLogger - Round 1: ByteDancer (SCISSORS) VS InfiniteLoop (SPOCK) - InfiniteLoop wins. SPOCK smashes SCISSORS
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 2 6 0 new score:  1
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 6 2 1 new score:  1
+18:29:10.403 [main] INFO  consoleLogger - Round 1: ByteDancer (LIZARD) VS ExceptionExplorer (PAPER) - ByteDancer wins. LIZARD eats PAPER
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 2 7 1 new score:  1
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 7 2 0 new score:  1
+18:29:10.403 [main] INFO  consoleLogger - Round 1: ByteDancer (PAPER) VS RuntimeRider (SCISSORS) - RuntimeRider wins. SCISSORS cuts PAPER
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 2 8 0 new score:  1
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 8 2 1 new score:  1
+18:29:10.403 [main] INFO  consoleLogger - Round 1: ByteDancer (LIZARD) VS LambdaLuchador (PAPER) - ByteDancer wins. LIZARD eats PAPER
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 2 9 1 new score:  1
+18:29:10.403 [main] DEBUG fileLogger - Increased score in coordinates: 9 2 0 new score:  1
+18:29:10.404 [main] INFO  consoleLogger - Round 1: ByteDancer (LIZARD) VS JavaJuice (SCISSORS) - JavaJuice wins. SCISSORS decapitates LIZARD
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 3 4 0 new score:  1
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 4 3 1 new score:  1
+18:29:10.404 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (SPOCK) VS SyntaxSniper (SCISSORS) - CaffeinatedCompiler wins. SPOCK smashes SCISSORS
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 3 5 1 new score:  1
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 5 3 0 new score:  1
+18:29:10.404 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (ROCK) VS InfiniteLoop (SPOCK) - InfiniteLoop wins. SPOCK vaporizes ROCK
+18:29:10.404 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (SCISSORS) VS ExceptionExplorer (SCISSORS) - It's a draw.
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 3 7 0 new score:  1
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 7 3 1 new score:  1
+18:29:10.404 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (ROCK) VS RuntimeRider (SCISSORS) - CaffeinatedCompiler wins. ROCK crushes SCISSORS
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 3 8 1 new score:  1
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 8 3 0 new score:  1
+18:29:10.404 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (PAPER) VS LambdaLuchador (LIZARD) - LambdaLuchador wins. LIZARD eats PAPER
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 3 9 0 new score:  1
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 9 3 1 new score:  1
+18:29:10.404 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (PAPER) VS JavaJuice (SPOCK) - CaffeinatedCompiler wins. PAPER disproves SPOCK
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 4 5 1 new score:  1
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 5 4 0 new score:  1
+18:29:10.404 [main] INFO  consoleLogger - Round 1: SyntaxSniper (LIZARD) VS InfiniteLoop (ROCK) - InfiniteLoop wins. ROCK crushes LIZARD
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 4 6 0 new score:  1
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 6 4 1 new score:  1
+18:29:10.404 [main] INFO  consoleLogger - Round 1: SyntaxSniper (LIZARD) VS ExceptionExplorer (SPOCK) - SyntaxSniper wins. LIZARD poisons SPOCK
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 4 7 1 new score:  1
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 7 4 0 new score:  1
+18:29:10.404 [main] INFO  consoleLogger - Round 1: SyntaxSniper (ROCK) VS RuntimeRider (SPOCK) - RuntimeRider wins. SPOCK vaporizes ROCK
+18:29:10.404 [main] DEBUG fileLogger - Increased score in coordinates: 4 8 1 new score:  1
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 8 4 0 new score:  1
+18:29:10.405 [main] INFO  consoleLogger - Round 1: SyntaxSniper (SCISSORS) VS LambdaLuchador (SPOCK) - LambdaLuchador wins. SPOCK smashes SCISSORS
+18:29:10.405 [main] INFO  consoleLogger - Round 1: SyntaxSniper (SPOCK) VS JavaJuice (SPOCK) - It's a draw.
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 5 6 1 new score:  1
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 6 5 0 new score:  1
+18:29:10.405 [main] INFO  consoleLogger - Round 1: InfiniteLoop (ROCK) VS ExceptionExplorer (PAPER) - ExceptionExplorer wins. PAPER covers ROCK
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 5 7 1 new score:  1
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 7 5 0 new score:  1
+18:29:10.405 [main] INFO  consoleLogger - Round 1: InfiniteLoop (PAPER) VS RuntimeRider (SCISSORS) - RuntimeRider wins. SCISSORS cuts PAPER
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 5 8 0 new score:  1
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 8 5 1 new score:  1
+18:29:10.405 [main] INFO  consoleLogger - Round 1: InfiniteLoop (LIZARD) VS LambdaLuchador (SPOCK) - InfiniteLoop wins. LIZARD poisons SPOCK
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 5 9 0 new score:  1
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 9 5 1 new score:  1
+18:29:10.405 [main] INFO  consoleLogger - Round 1: InfiniteLoop (SCISSORS) VS JavaJuice (PAPER) - InfiniteLoop wins. SCISSORS cuts PAPER
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 6 7 0 new score:  1
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 7 6 1 new score:  1
+18:29:10.405 [main] INFO  consoleLogger - Round 1: ExceptionExplorer (ROCK) VS RuntimeRider (LIZARD) - ExceptionExplorer wins. ROCK crushes LIZARD
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 6 8 0 new score:  1
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 8 6 1 new score:  1
+18:29:10.405 [main] INFO  consoleLogger - Round 1: ExceptionExplorer (LIZARD) VS LambdaLuchador (PAPER) - ExceptionExplorer wins. LIZARD eats PAPER
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 6 9 1 new score:  1
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 9 6 0 new score:  1
+18:29:10.405 [main] INFO  consoleLogger - Round 1: ExceptionExplorer (ROCK) VS JavaJuice (PAPER) - JavaJuice wins. PAPER covers ROCK
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 7 8 1 new score:  1
+18:29:10.405 [main] DEBUG fileLogger - Increased score in coordinates: 8 7 0 new score:  1
+18:29:10.406 [main] INFO  consoleLogger - Round 1: RuntimeRider (SPOCK) VS LambdaLuchador (LIZARD) - LambdaLuchador wins. LIZARD poisons SPOCK
+18:29:10.406 [main] DEBUG fileLogger - Increased score in coordinates: 7 9 1 new score:  1
+18:29:10.406 [main] DEBUG fileLogger - Increased score in coordinates: 9 7 0 new score:  1
+18:29:10.406 [main] INFO  consoleLogger - Round 1: RuntimeRider (ROCK) VS JavaJuice (SPOCK) - JavaJuice wins. SPOCK vaporizes ROCK
+18:29:10.406 [main] DEBUG fileLogger - Increased score in coordinates: 8 9 0 new score:  1
+18:29:10.406 [main] DEBUG fileLogger - Increased score in coordinates: 9 8 1 new score:  1
+18:29:10.406 [main] INFO  consoleLogger - Round 1: LambdaLuchador (ROCK) VS JavaJuice (SCISSORS) - LambdaLuchador wins. ROCK crushes SCISSORS
+18:29:10.406 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:10.668 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  2
+18:29:10.668 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  2
+18:29:10.668 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS RustySemaphore (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:29:10.669 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:11.103 [main] DEBUG fileLogger - Increased score in coordinates: 0 2 1 new score:  1
+18:29:11.104 [main] DEBUG fileLogger - Increased score in coordinates: 2 0 0 new score:  1
+18:29:11.104 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS ByteDancer (SPOCK) - ByteDancer wins. SPOCK vaporizes ROCK
+18:29:11.104 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:11.358 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS CaffeinatedCompiler (ROCK) - It's a draw.
+18:29:11.359 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:11.658 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:11.961 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:12.198 [main] DEBUG fileLogger - Increased score in coordinates: 0 4 1 new score:  2
+18:29:12.198 [main] DEBUG fileLogger - Increased score in coordinates: 4 0 0 new score:  2
+18:29:12.198 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS SyntaxSniper (SPOCK) - SyntaxSniper wins. SPOCK vaporizes ROCK
+18:29:12.198 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:12.468 [main] DEBUG fileLogger - Increased score in coordinates: 0 5 0 new score:  1
+18:29:12.468 [main] DEBUG fileLogger - Increased score in coordinates: 5 0 1 new score:  1
+18:29:12.468 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS InfiniteLoop (SCISSORS) - Andris wins. ROCK crushes SCISSORS
+18:29:12.469 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:12.694 [main] DEBUG fileLogger - Increased score in coordinates: 0 6 1 new score:  1
+18:29:12.694 [main] DEBUG fileLogger - Increased score in coordinates: 6 0 0 new score:  1
+18:29:12.694 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS ExceptionExplorer (SPOCK) - ExceptionExplorer wins. SPOCK vaporizes ROCK
+18:29:12.694 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:12.918 [main] DEBUG fileLogger - Increased score in coordinates: 0 7 0 new score:  1
+18:29:12.918 [main] DEBUG fileLogger - Increased score in coordinates: 7 0 1 new score:  1
+18:29:12.918 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS RuntimeRider (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:29:12.918 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:13.142 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS LambdaLuchador (ROCK) - It's a draw.
+18:29:13.143 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:13.383 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:13.623 [main] DEBUG fileLogger - Increased score in coordinates: 0 9 1 new score:  1
+18:29:13.623 [main] DEBUG fileLogger - Increased score in coordinates: 9 0 0 new score:  1
+18:29:13.623 [main] INFO  consoleLogger - Round 2: Andris (ROCK) VS JavaJuice (SPOCK) - JavaJuice wins. SPOCK vaporizes ROCK
+18:29:13.623 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  2
+18:29:13.623 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  2
+18:29:13.623 [main] INFO  consoleLogger - Round 2: RustySemaphore (ROCK) VS ByteDancer (LIZARD) - RustySemaphore wins. ROCK crushes LIZARD
+18:29:13.623 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  2
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  2
+18:29:13.624 [main] INFO  consoleLogger - Round 2: RustySemaphore (SPOCK) VS CaffeinatedCompiler (LIZARD) - CaffeinatedCompiler wins. LIZARD poisons SPOCK
+18:29:13.624 [main] INFO  consoleLogger - Round 2: RustySemaphore (SCISSORS) VS SyntaxSniper (SCISSORS) - It's a draw.
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 1 5 0 new score:  1
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 5 1 1 new score:  1
+18:29:13.624 [main] INFO  consoleLogger - Round 2: RustySemaphore (PAPER) VS InfiniteLoop (SPOCK) - RustySemaphore wins. PAPER disproves SPOCK
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 1 6 1 new score:  2
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 6 1 0 new score:  2
+18:29:13.624 [main] INFO  consoleLogger - Round 2: RustySemaphore (SCISSORS) VS ExceptionExplorer (ROCK) - ExceptionExplorer wins. ROCK crushes SCISSORS
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 1 7 1 new score:  1
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 7 1 0 new score:  1
+18:29:13.624 [main] INFO  consoleLogger - Round 2: RustySemaphore (PAPER) VS RuntimeRider (LIZARD) - RuntimeRider wins. LIZARD eats PAPER
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 1 8 1 new score:  1
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 8 1 0 new score:  1
+18:29:13.624 [main] INFO  consoleLogger - Round 2: RustySemaphore (SCISSORS) VS LambdaLuchador (ROCK) - LambdaLuchador wins. ROCK crushes SCISSORS
+18:29:13.624 [main] INFO  consoleLogger - Round 2: RustySemaphore (SCISSORS) VS JavaJuice (SCISSORS) - It's a draw.
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 1 new score:  2
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 0 new score:  2
+18:29:13.624 [main] INFO  consoleLogger - Round 2: ByteDancer (PAPER) VS CaffeinatedCompiler (SCISSORS) - CaffeinatedCompiler wins. SCISSORS cuts PAPER
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 2 4 1 new score:  2
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 4 2 0 new score:  2
+18:29:13.624 [main] INFO  consoleLogger - Round 2: ByteDancer (SPOCK) VS SyntaxSniper (LIZARD) - SyntaxSniper wins. LIZARD poisons SPOCK
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 2 5 1 new score:  2
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 5 2 0 new score:  2
+18:29:13.624 [main] INFO  consoleLogger - Round 2: ByteDancer (PAPER) VS InfiniteLoop (SCISSORS) - InfiniteLoop wins. SCISSORS cuts PAPER
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 2 6 0 new score:  2
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 6 2 1 new score:  2
+18:29:13.624 [main] INFO  consoleLogger - Round 2: ByteDancer (LIZARD) VS ExceptionExplorer (PAPER) - ByteDancer wins. LIZARD eats PAPER
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 2 7 1 new score:  2
+18:29:13.624 [main] DEBUG fileLogger - Increased score in coordinates: 7 2 0 new score:  2
+18:29:13.624 [main] INFO  consoleLogger - Round 2: ByteDancer (LIZARD) VS RuntimeRider (ROCK) - RuntimeRider wins. ROCK crushes LIZARD
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 2 8 0 new score:  2
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 8 2 1 new score:  2
+18:29:13.625 [main] INFO  consoleLogger - Round 2: ByteDancer (LIZARD) VS LambdaLuchador (SPOCK) - ByteDancer wins. LIZARD poisons SPOCK
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 2 9 1 new score:  2
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 9 2 0 new score:  2
+18:29:13.625 [main] INFO  consoleLogger - Round 2: ByteDancer (ROCK) VS JavaJuice (PAPER) - JavaJuice wins. PAPER covers ROCK
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 3 4 1 new score:  1
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 4 3 0 new score:  1
+18:29:13.625 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (SCISSORS) VS SyntaxSniper (ROCK) - SyntaxSniper wins. ROCK crushes SCISSORS
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 3 5 1 new score:  2
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 5 3 0 new score:  2
+18:29:13.625 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (ROCK) VS InfiniteLoop (SPOCK) - InfiniteLoop wins. SPOCK vaporizes ROCK
+18:29:13.625 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (SCISSORS) VS ExceptionExplorer (SCISSORS) - It's a draw.
+18:29:13.625 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (SPOCK) VS RuntimeRider (SPOCK) - It's a draw.
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 3 8 0 new score:  1
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 8 3 1 new score:  1
+18:29:13.625 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (SCISSORS) VS LambdaLuchador (LIZARD) - CaffeinatedCompiler wins. SCISSORS decapitates LIZARD
+18:29:13.625 [main] INFO  consoleLogger - Round 2: CaffeinatedCompiler (ROCK) VS JavaJuice (ROCK) - It's a draw.
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 4 5 1 new score:  2
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 5 4 0 new score:  2
+18:29:13.625 [main] INFO  consoleLogger - Round 2: SyntaxSniper (LIZARD) VS InfiniteLoop (ROCK) - InfiniteLoop wins. ROCK crushes LIZARD
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 4 6 0 new score:  2
+18:29:13.625 [main] DEBUG fileLogger - Increased score in coordinates: 6 4 1 new score:  2
+18:29:13.625 [main] INFO  consoleLogger - Round 2: SyntaxSniper (SCISSORS) VS ExceptionExplorer (LIZARD) - SyntaxSniper wins. SCISSORS decapitates LIZARD
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 4 7 0 new score:  1
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 7 4 1 new score:  1
+18:29:13.626 [main] INFO  consoleLogger - Round 2: SyntaxSniper (PAPER) VS RuntimeRider (ROCK) - SyntaxSniper wins. PAPER covers ROCK
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 4 8 0 new score:  1
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 8 4 1 new score:  1
+18:29:13.626 [main] INFO  consoleLogger - Round 2: SyntaxSniper (SCISSORS) VS LambdaLuchador (PAPER) - SyntaxSniper wins. SCISSORS cuts PAPER
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 4 9 1 new score:  1
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 9 4 0 new score:  1
+18:29:13.626 [main] INFO  consoleLogger - Round 2: SyntaxSniper (SCISSORS) VS JavaJuice (SPOCK) - JavaJuice wins. SPOCK smashes SCISSORS
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 5 6 0 new score:  1
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 6 5 1 new score:  1
+18:29:13.626 [main] INFO  consoleLogger - Round 2: InfiniteLoop (SPOCK) VS ExceptionExplorer (SCISSORS) - InfiniteLoop wins. SPOCK smashes SCISSORS
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 5 7 1 new score:  2
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 7 5 0 new score:  2
+18:29:13.626 [main] INFO  consoleLogger - Round 2: InfiniteLoop (LIZARD) VS RuntimeRider (ROCK) - RuntimeRider wins. ROCK crushes LIZARD
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 5 8 1 new score:  1
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 8 5 0 new score:  1
+18:29:13.626 [main] INFO  consoleLogger - Round 2: InfiniteLoop (LIZARD) VS LambdaLuchador (SCISSORS) - LambdaLuchador wins. SCISSORS decapitates LIZARD
+18:29:13.626 [main] INFO  consoleLogger - Round 2: InfiniteLoop (PAPER) VS JavaJuice (PAPER) - It's a draw.
+18:29:13.626 [main] INFO  consoleLogger - Round 2: ExceptionExplorer (SCISSORS) VS RuntimeRider (SCISSORS) - It's a draw.
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 6 8 1 new score:  1
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 8 6 0 new score:  1
+18:29:13.626 [main] INFO  consoleLogger - Round 2: ExceptionExplorer (ROCK) VS LambdaLuchador (SPOCK) - LambdaLuchador wins. SPOCK vaporizes ROCK
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 6 9 1 new score:  2
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 9 6 0 new score:  2
+18:29:13.626 [main] INFO  consoleLogger - Round 2: ExceptionExplorer (LIZARD) VS JavaJuice (SCISSORS) - JavaJuice wins. SCISSORS decapitates LIZARD
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 7 8 1 new score:  2
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 8 7 0 new score:  2
+18:29:13.626 [main] INFO  consoleLogger - Round 2: RuntimeRider (LIZARD) VS LambdaLuchador (SCISSORS) - LambdaLuchador wins. SCISSORS decapitates LIZARD
+18:29:13.626 [main] INFO  consoleLogger - Round 2: RuntimeRider (ROCK) VS JavaJuice (ROCK) - It's a draw.
+18:29:13.626 [main] DEBUG fileLogger - Increased score in coordinates: 8 9 1 new score:  1
+18:29:13.627 [main] DEBUG fileLogger - Increased score in coordinates: 9 8 0 new score:  1
+18:29:13.627 [main] INFO  consoleLogger - Round 2: LambdaLuchador (PAPER) VS JavaJuice (LIZARD) - JavaJuice wins. LIZARD eats PAPER
+18:29:13.627 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:13.879 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  3
+18:29:13.880 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  3
+18:29:13.880 [main] INFO  consoleLogger - Round 3: Andris (ROCK) VS RustySemaphore (SCISSORS) - Andris wins. ROCK crushes SCISSORS
+18:29:13.880 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:14.089 [main] INFO  consoleLogger - Round 3: Andris (ROCK) VS ByteDancer (ROCK) - It's a draw.
+18:29:14.089 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:14.328 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 0 new score:  2
+18:29:14.328 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 1 new score:  2
+18:29:14.328 [main] INFO  consoleLogger - Round 3: Andris (ROCK) VS CaffeinatedCompiler (SCISSORS) - Andris wins. ROCK crushes SCISSORS
+18:29:14.328 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:14.552 [main] DEBUG fileLogger - Increased score in coordinates: 0 4 1 new score:  3
+18:29:14.552 [main] DEBUG fileLogger - Increased score in coordinates: 4 0 0 new score:  3
+18:29:14.552 [main] INFO  consoleLogger - Round 3: Andris (ROCK) VS SyntaxSniper (SPOCK) - SyntaxSniper wins. SPOCK vaporizes ROCK
+18:29:14.553 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:14.763 [main] DEBUG fileLogger - Increased score in coordinates: 0 5 1 new score:  1
+18:29:14.763 [main] DEBUG fileLogger - Increased score in coordinates: 5 0 0 new score:  1
+18:29:14.763 [main] INFO  consoleLogger - Round 3: Andris (ROCK) VS InfiniteLoop (PAPER) - InfiniteLoop wins. PAPER covers ROCK
+18:29:14.764 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:14.958 [main] DEBUG fileLogger - Increased score in coordinates: 0 6 1 new score:  2
+18:29:14.958 [main] DEBUG fileLogger - Increased score in coordinates: 6 0 0 new score:  2
+18:29:14.958 [main] INFO  consoleLogger - Round 3: Andris (ROCK) VS ExceptionExplorer (PAPER) - ExceptionExplorer wins. PAPER covers ROCK
+18:29:14.958 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:15.183 [main] DEBUG fileLogger - Increased score in coordinates: 0 7 1 new score:  1
+18:29:15.183 [main] DEBUG fileLogger - Increased score in coordinates: 7 0 0 new score:  1
+18:29:15.183 [main] INFO  consoleLogger - Round 3: Andris (ROCK) VS RuntimeRider (SPOCK) - RuntimeRider wins. SPOCK vaporizes ROCK
+18:29:15.183 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:15.393 [main] INFO  consoleLogger - Round 3: Andris (ROCK) VS LambdaLuchador (ROCK) - It's a draw.
+18:29:15.393 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:15.648 [main] DEBUG fileLogger - Increased score in coordinates: 0 9 1 new score:  2
+18:29:15.648 [main] DEBUG fileLogger - Increased score in coordinates: 9 0 0 new score:  2
+18:29:15.648 [main] INFO  consoleLogger - Round 3: Andris (ROCK) VS JavaJuice (PAPER) - JavaJuice wins. PAPER covers ROCK
+18:29:15.648 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  1
+18:29:15.648 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  1
+18:29:15.648 [main] INFO  consoleLogger - Round 3: RustySemaphore (PAPER) VS ByteDancer (SCISSORS) - ByteDancer wins. SCISSORS cuts PAPER
+18:29:15.649 [main] INFO  consoleLogger - Round 3: RustySemaphore (LIZARD) VS CaffeinatedCompiler (LIZARD) - It's a draw.
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 1 4 1 new score:  1
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 4 1 0 new score:  1
+18:29:15.649 [main] INFO  consoleLogger - Round 3: RustySemaphore (SPOCK) VS SyntaxSniper (PAPER) - SyntaxSniper wins. PAPER disproves SPOCK
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 1 5 1 new score:  2
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 5 1 0 new score:  2
+18:29:15.649 [main] INFO  consoleLogger - Round 3: RustySemaphore (PAPER) VS InfiniteLoop (LIZARD) - InfiniteLoop wins. LIZARD eats PAPER
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 1 6 1 new score:  3
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 6 1 0 new score:  3
+18:29:15.649 [main] INFO  consoleLogger - Round 3: RustySemaphore (SCISSORS) VS ExceptionExplorer (SPOCK) - ExceptionExplorer wins. SPOCK smashes SCISSORS
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 1 7 0 new score:  2
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 7 1 1 new score:  2
+18:29:15.649 [main] INFO  consoleLogger - Round 3: RustySemaphore (PAPER) VS RuntimeRider (SPOCK) - RustySemaphore wins. PAPER disproves SPOCK
+18:29:15.649 [main] INFO  consoleLogger - Round 3: RustySemaphore (ROCK) VS LambdaLuchador (ROCK) - It's a draw.
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 1 9 1 new score:  2
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 9 1 0 new score:  2
+18:29:15.649 [main] INFO  consoleLogger - Round 3: RustySemaphore (SPOCK) VS JavaJuice (LIZARD) - JavaJuice wins. LIZARD poisons SPOCK
+18:29:15.649 [main] INFO  consoleLogger - Round 3: ByteDancer (PAPER) VS CaffeinatedCompiler (PAPER) - It's a draw.
+18:29:15.649 [main] INFO  consoleLogger - Round 3: ByteDancer (SCISSORS) VS SyntaxSniper (SCISSORS) - It's a draw.
+18:29:15.649 [main] INFO  consoleLogger - Round 3: ByteDancer (LIZARD) VS InfiniteLoop (LIZARD) - It's a draw.
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 2 6 0 new score:  3
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 6 2 1 new score:  3
+18:29:15.649 [main] INFO  consoleLogger - Round 3: ByteDancer (PAPER) VS ExceptionExplorer (SPOCK) - ByteDancer wins. PAPER disproves SPOCK
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 2 7 1 new score:  3
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 7 2 0 new score:  3
+18:29:15.649 [main] INFO  consoleLogger - Round 3: ByteDancer (LIZARD) VS RuntimeRider (SCISSORS) - RuntimeRider wins. SCISSORS decapitates LIZARD
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 2 8 0 new score:  3
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 8 2 1 new score:  3
+18:29:15.649 [main] INFO  consoleLogger - Round 3: ByteDancer (SCISSORS) VS LambdaLuchador (PAPER) - ByteDancer wins. SCISSORS cuts PAPER
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 2 9 1 new score:  3
+18:29:15.649 [main] DEBUG fileLogger - Increased score in coordinates: 9 2 0 new score:  3
+18:29:15.649 [main] INFO  consoleLogger - Round 3: ByteDancer (SPOCK) VS JavaJuice (PAPER) - JavaJuice wins. PAPER disproves SPOCK
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 3 4 0 new score:  2
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 4 3 1 new score:  2
+18:29:15.650 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (SPOCK) VS SyntaxSniper (SCISSORS) - CaffeinatedCompiler wins. SPOCK smashes SCISSORS
+18:29:15.650 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (SPOCK) VS InfiniteLoop (SPOCK) - It's a draw.
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 3 6 1 new score:  1
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 6 3 0 new score:  1
+18:29:15.650 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (LIZARD) VS ExceptionExplorer (ROCK) - ExceptionExplorer wins. ROCK crushes LIZARD
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 3 7 1 new score:  1
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 7 3 0 new score:  1
+18:29:15.650 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (SPOCK) VS RuntimeRider (PAPER) - RuntimeRider wins. PAPER disproves SPOCK
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 3 8 1 new score:  2
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 8 3 0 new score:  2
+18:29:15.650 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (LIZARD) VS LambdaLuchador (ROCK) - LambdaLuchador wins. ROCK crushes LIZARD
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 3 9 0 new score:  2
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 9 3 1 new score:  2
+18:29:15.650 [main] INFO  consoleLogger - Round 3: CaffeinatedCompiler (LIZARD) VS JavaJuice (PAPER) - CaffeinatedCompiler wins. LIZARD eats PAPER
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 4 5 0 new score:  1
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 5 4 1 new score:  1
+18:29:15.650 [main] INFO  consoleLogger - Round 3: SyntaxSniper (PAPER) VS InfiniteLoop (SPOCK) - SyntaxSniper wins. PAPER disproves SPOCK
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 4 6 0 new score:  3
+18:29:15.650 [main] DEBUG fileLogger - Increased score in coordinates: 6 4 1 new score:  3
+18:29:15.650 [main] INFO  consoleLogger - Round 3: SyntaxSniper (SCISSORS) VS ExceptionExplorer (PAPER) - SyntaxSniper wins. SCISSORS cuts PAPER
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 4 7 1 new score:  2
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 7 4 0 new score:  2
+18:29:15.651 [main] INFO  consoleLogger - Round 3: SyntaxSniper (LIZARD) VS RuntimeRider (SCISSORS) - RuntimeRider wins. SCISSORS decapitates LIZARD
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 4 8 0 new score:  2
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 8 4 1 new score:  2
+18:29:15.651 [main] INFO  consoleLogger - Round 3: SyntaxSniper (SCISSORS) VS LambdaLuchador (PAPER) - SyntaxSniper wins. SCISSORS cuts PAPER
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 4 9 0 new score:  1
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 9 4 1 new score:  1
+18:29:15.651 [main] INFO  consoleLogger - Round 3: SyntaxSniper (SPOCK) VS JavaJuice (ROCK) - SyntaxSniper wins. SPOCK vaporizes ROCK
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 5 6 1 new score:  2
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 6 5 0 new score:  2
+18:29:15.651 [main] INFO  consoleLogger - Round 3: InfiniteLoop (SPOCK) VS ExceptionExplorer (LIZARD) - ExceptionExplorer wins. LIZARD poisons SPOCK
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 5 7 0 new score:  1
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 7 5 1 new score:  1
+18:29:15.651 [main] INFO  consoleLogger - Round 3: InfiniteLoop (LIZARD) VS RuntimeRider (SPOCK) - InfiniteLoop wins. LIZARD poisons SPOCK
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 5 8 1 new score:  2
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 8 5 0 new score:  2
+18:29:15.651 [main] INFO  consoleLogger - Round 3: InfiniteLoop (PAPER) VS LambdaLuchador (SCISSORS) - LambdaLuchador wins. SCISSORS cuts PAPER
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 5 9 0 new score:  2
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 9 5 1 new score:  2
+18:29:15.651 [main] INFO  consoleLogger - Round 3: InfiniteLoop (SPOCK) VS JavaJuice (SCISSORS) - InfiniteLoop wins. SPOCK smashes SCISSORS
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 6 7 1 new score:  1
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 7 6 0 new score:  1
+18:29:15.651 [main] INFO  consoleLogger - Round 3: ExceptionExplorer (ROCK) VS RuntimeRider (PAPER) - RuntimeRider wins. PAPER covers ROCK
+18:29:15.651 [main] INFO  consoleLogger - Round 3: ExceptionExplorer (SCISSORS) VS LambdaLuchador (SCISSORS) - It's a draw.
+18:29:15.651 [main] INFO  consoleLogger - Round 3: ExceptionExplorer (LIZARD) VS JavaJuice (LIZARD) - It's a draw.
+18:29:15.651 [main] DEBUG fileLogger - Increased score in coordinates: 7 8 1 new score:  3
+18:29:15.652 [main] DEBUG fileLogger - Increased score in coordinates: 8 7 0 new score:  3
+18:29:15.652 [main] INFO  consoleLogger - Round 3: RuntimeRider (PAPER) VS LambdaLuchador (LIZARD) - LambdaLuchador wins. LIZARD eats PAPER
+18:29:15.652 [main] DEBUG fileLogger - Increased score in coordinates: 7 9 0 new score:  1
+18:29:15.652 [main] DEBUG fileLogger - Increased score in coordinates: 9 7 1 new score:  1
+18:29:15.652 [main] INFO  consoleLogger - Round 3: RuntimeRider (ROCK) VS JavaJuice (SCISSORS) - RuntimeRider wins. ROCK crushes SCISSORS
+18:29:15.652 [main] DEBUG fileLogger - Increased score in coordinates: 8 9 0 new score:  2
+18:29:15.652 [main] DEBUG fileLogger - Increased score in coordinates: 9 8 1 new score:  2
+18:29:15.652 [main] INFO  consoleLogger - Round 3: LambdaLuchador (SCISSORS) VS JavaJuice (PAPER) - LambdaLuchador wins. SCISSORS cuts PAPER
+18:29:15.652 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:15.845 [main] INFO  consoleLogger - Round 4: Andris (ROCK) VS RustySemaphore (ROCK) - It's a draw.
+18:29:15.845 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:16.098 [main] INFO  consoleLogger - Round 4: Andris (ROCK) VS ByteDancer (ROCK) - It's a draw.
+18:29:16.098 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:16.309 [main] INFO  consoleLogger - Round 4: Andris (ROCK) VS CaffeinatedCompiler (ROCK) - It's a draw.
+18:29:16.309 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:16.503 [main] DEBUG fileLogger - Increased score in coordinates: 0 4 1 new score:  4
+18:29:16.503 [main] DEBUG fileLogger - Increased score in coordinates: 4 0 0 new score:  4
+18:29:16.503 [main] INFO  consoleLogger - Round 4: Andris (ROCK) VS SyntaxSniper (SPOCK) - SyntaxSniper wins. SPOCK vaporizes ROCK
+18:29:16.504 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:16.713 [main] DEBUG fileLogger - Increased score in coordinates: 0 5 0 new score:  2
+18:29:16.713 [main] DEBUG fileLogger - Increased score in coordinates: 5 0 1 new score:  2
+18:29:16.713 [main] INFO  consoleLogger - Round 4: Andris (ROCK) VS InfiniteLoop (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:29:16.713 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:16.938 [main] DEBUG fileLogger - Increased score in coordinates: 0 6 1 new score:  3
+18:29:16.939 [main] DEBUG fileLogger - Increased score in coordinates: 6 0 0 new score:  3
+18:29:16.939 [main] INFO  consoleLogger - Round 4: Andris (ROCK) VS ExceptionExplorer (SPOCK) - ExceptionExplorer wins. SPOCK vaporizes ROCK
+18:29:16.939 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:17.148 [main] DEBUG fileLogger - Increased score in coordinates: 0 7 0 new score:  2
+18:29:17.148 [main] DEBUG fileLogger - Increased score in coordinates: 7 0 1 new score:  2
+18:29:17.148 [main] INFO  consoleLogger - Round 4: Andris (ROCK) VS RuntimeRider (SCISSORS) - Andris wins. ROCK crushes SCISSORS
+18:29:17.148 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:17.343 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:17.552 [main] DEBUG fileLogger - Increased score in coordinates: 0 8 1 new score:  2
+18:29:17.553 [main] DEBUG fileLogger - Increased score in coordinates: 8 0 0 new score:  2
+18:29:17.553 [main] INFO  consoleLogger - Round 4: Andris (ROCK) VS LambdaLuchador (SPOCK) - LambdaLuchador wins. SPOCK vaporizes ROCK
+18:29:17.553 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:17.733 [main] DEBUG fileLogger - Increased score in coordinates: 0 9 0 new score:  2
+18:29:17.733 [main] DEBUG fileLogger - Increased score in coordinates: 9 0 1 new score:  2
+18:29:17.733 [main] INFO  consoleLogger - Round 4: Andris (ROCK) VS JavaJuice (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:29:17.733 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 1 new score:  2
+18:29:17.733 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 0 new score:  2
+18:29:17.733 [main] INFO  consoleLogger - Round 4: RustySemaphore (SCISSORS) VS ByteDancer (ROCK) - ByteDancer wins. ROCK crushes SCISSORS
+18:29:17.733 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  1
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  1
+18:29:17.734 [main] INFO  consoleLogger - Round 4: RustySemaphore (SCISSORS) VS CaffeinatedCompiler (PAPER) - RustySemaphore wins. SCISSORS cuts PAPER
+18:29:17.734 [main] INFO  consoleLogger - Round 4: RustySemaphore (LIZARD) VS SyntaxSniper (LIZARD) - It's a draw.
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 1 5 1 new score:  3
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 5 1 0 new score:  3
+18:29:17.734 [main] INFO  consoleLogger - Round 4: RustySemaphore (ROCK) VS InfiniteLoop (SPOCK) - InfiniteLoop wins. SPOCK vaporizes ROCK
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 1 6 1 new score:  4
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 6 1 0 new score:  4
+18:29:17.734 [main] INFO  consoleLogger - Round 4: RustySemaphore (SPOCK) VS ExceptionExplorer (LIZARD) - ExceptionExplorer wins. LIZARD poisons SPOCK
+18:29:17.734 [main] INFO  consoleLogger - Round 4: RustySemaphore (SCISSORS) VS RuntimeRider (SCISSORS) - It's a draw.
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 1 8 0 new score:  1
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 8 1 1 new score:  1
+18:29:17.734 [main] INFO  consoleLogger - Round 4: RustySemaphore (SCISSORS) VS LambdaLuchador (PAPER) - RustySemaphore wins. SCISSORS cuts PAPER
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 1 9 0 new score:  1
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 9 1 1 new score:  1
+18:29:17.734 [main] INFO  consoleLogger - Round 4: RustySemaphore (SCISSORS) VS JavaJuice (PAPER) - RustySemaphore wins. SCISSORS cuts PAPER
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  1
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  1
+18:29:17.734 [main] INFO  consoleLogger - Round 4: ByteDancer (SPOCK) VS CaffeinatedCompiler (SCISSORS) - ByteDancer wins. SPOCK smashes SCISSORS
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 2 4 0 new score:  1
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 4 2 1 new score:  1
+18:29:17.734 [main] INFO  consoleLogger - Round 4: ByteDancer (ROCK) VS SyntaxSniper (LIZARD) - ByteDancer wins. ROCK crushes LIZARD
+18:29:17.734 [main] INFO  consoleLogger - Round 4: ByteDancer (PAPER) VS InfiniteLoop (PAPER) - It's a draw.
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 2 6 0 new score:  4
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 6 2 1 new score:  4
+18:29:17.734 [main] INFO  consoleLogger - Round 4: ByteDancer (PAPER) VS ExceptionExplorer (ROCK) - ByteDancer wins. PAPER covers ROCK
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 2 7 0 new score:  1
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 7 2 1 new score:  1
+18:29:17.734 [main] INFO  consoleLogger - Round 4: ByteDancer (LIZARD) VS RuntimeRider (SPOCK) - ByteDancer wins. LIZARD poisons SPOCK
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 2 8 1 new score:  1
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 8 2 0 new score:  1
+18:29:17.734 [main] INFO  consoleLogger - Round 4: ByteDancer (LIZARD) VS LambdaLuchador (SCISSORS) - LambdaLuchador wins. SCISSORS decapitates LIZARD
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 2 9 0 new score:  1
+18:29:17.734 [main] DEBUG fileLogger - Increased score in coordinates: 9 2 1 new score:  1
+18:29:17.734 [main] INFO  consoleLogger - Round 4: ByteDancer (ROCK) VS JavaJuice (LIZARD) - ByteDancer wins. ROCK crushes LIZARD
+18:29:17.734 [main] INFO  consoleLogger - Round 4: CaffeinatedCompiler (ROCK) VS SyntaxSniper (ROCK) - It's a draw.
+18:29:17.735 [main] INFO  consoleLogger - Round 4: CaffeinatedCompiler (PAPER) VS InfiniteLoop (PAPER) - It's a draw.
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 3 6 0 new score:  1
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 6 3 1 new score:  1
+18:29:17.735 [main] INFO  consoleLogger - Round 4: CaffeinatedCompiler (LIZARD) VS ExceptionExplorer (PAPER) - CaffeinatedCompiler wins. LIZARD eats PAPER
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 3 7 0 new score:  2
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 7 3 1 new score:  2
+18:29:17.735 [main] INFO  consoleLogger - Round 4: CaffeinatedCompiler (SCISSORS) VS RuntimeRider (LIZARD) - CaffeinatedCompiler wins. SCISSORS decapitates LIZARD
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 3 8 1 new score:  3
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 8 3 0 new score:  3
+18:29:17.735 [main] INFO  consoleLogger - Round 4: CaffeinatedCompiler (ROCK) VS LambdaLuchador (SPOCK) - LambdaLuchador wins. SPOCK vaporizes ROCK
+18:29:17.735 [main] INFO  consoleLogger - Round 4: CaffeinatedCompiler (LIZARD) VS JavaJuice (LIZARD) - It's a draw.
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 4 5 1 new score:  3
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 5 4 0 new score:  3
+18:29:17.735 [main] INFO  consoleLogger - Round 4: SyntaxSniper (LIZARD) VS InfiniteLoop (ROCK) - InfiniteLoop wins. ROCK crushes LIZARD
+18:29:17.735 [main] INFO  consoleLogger - Round 4: SyntaxSniper (PAPER) VS ExceptionExplorer (PAPER) - It's a draw.
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 4 7 0 new score:  2
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 7 4 1 new score:  2
+18:29:17.735 [main] INFO  consoleLogger - Round 4: SyntaxSniper (SCISSORS) VS RuntimeRider (LIZARD) - SyntaxSniper wins. SCISSORS decapitates LIZARD
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 4 8 0 new score:  3
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 8 4 1 new score:  3
+18:29:17.735 [main] INFO  consoleLogger - Round 4: SyntaxSniper (ROCK) VS LambdaLuchador (SCISSORS) - SyntaxSniper wins. ROCK crushes SCISSORS
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 4 9 1 new score:  2
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 9 4 0 new score:  2
+18:29:17.735 [main] INFO  consoleLogger - Round 4: SyntaxSniper (PAPER) VS JavaJuice (SCISSORS) - JavaJuice wins. SCISSORS cuts PAPER
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 5 6 1 new score:  3
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 6 5 0 new score:  3
+18:29:17.735 [main] INFO  consoleLogger - Round 4: InfiniteLoop (PAPER) VS ExceptionExplorer (SCISSORS) - ExceptionExplorer wins. SCISSORS cuts PAPER
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 5 7 0 new score:  2
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 7 5 1 new score:  2
+18:29:17.735 [main] INFO  consoleLogger - Round 4: InfiniteLoop (SPOCK) VS RuntimeRider (ROCK) - InfiniteLoop wins. SPOCK vaporizes ROCK
+18:29:17.735 [main] INFO  consoleLogger - Round 4: InfiniteLoop (LIZARD) VS LambdaLuchador (LIZARD) - It's a draw.
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 5 9 1 new score:  1
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 9 5 0 new score:  1
+18:29:17.735 [main] INFO  consoleLogger - Round 4: InfiniteLoop (SCISSORS) VS JavaJuice (SPOCK) - JavaJuice wins. SPOCK smashes SCISSORS
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 6 7 1 new score:  2
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 7 6 0 new score:  2
+18:29:17.735 [main] INFO  consoleLogger - Round 4: ExceptionExplorer (SPOCK) VS RuntimeRider (PAPER) - RuntimeRider wins. PAPER disproves SPOCK
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 6 8 0 new score:  2
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 8 6 1 new score:  2
+18:29:17.735 [main] INFO  consoleLogger - Round 4: ExceptionExplorer (ROCK) VS LambdaLuchador (SCISSORS) - ExceptionExplorer wins. ROCK crushes SCISSORS
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 6 9 1 new score:  3
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 9 6 0 new score:  3
+18:29:17.735 [main] INFO  consoleLogger - Round 4: ExceptionExplorer (SPOCK) VS JavaJuice (PAPER) - JavaJuice wins. PAPER disproves SPOCK
+18:29:17.735 [main] INFO  consoleLogger - Round 4: RuntimeRider (LIZARD) VS LambdaLuchador (LIZARD) - It's a draw.
+18:29:17.735 [main] INFO  consoleLogger - Round 4: RuntimeRider (ROCK) VS JavaJuice (ROCK) - It's a draw.
+18:29:17.735 [main] DEBUG fileLogger - Increased score in coordinates: 8 9 0 new score:  3
+18:29:17.736 [main] DEBUG fileLogger - Increased score in coordinates: 9 8 1 new score:  3
+18:29:17.736 [main] INFO  consoleLogger - Round 4: LambdaLuchador (ROCK) VS JavaJuice (SCISSORS) - LambdaLuchador wins. ROCK crushes SCISSORS
+18:29:17.736 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:17.898 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  4
+18:29:17.899 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  4
+18:29:17.899 [main] INFO  consoleLogger - Round 5: Andris (ROCK) VS RustySemaphore (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:29:17.899 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:18.108 [main] INFO  consoleLogger - Round 5: Andris (ROCK) VS ByteDancer (ROCK) - It's a draw.
+18:29:18.109 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:18.320 [main] DEBUG fileLogger - Increased score in coordinates: 0 3 1 new score:  1
+18:29:18.320 [main] DEBUG fileLogger - Increased score in coordinates: 3 0 0 new score:  1
+18:29:18.320 [main] INFO  consoleLogger - Round 5: Andris (ROCK) VS CaffeinatedCompiler (SPOCK) - CaffeinatedCompiler wins. SPOCK vaporizes ROCK
+18:29:18.320 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:18.498 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:18.708 [main] DEBUG fileLogger - Increased score in coordinates: 0 4 0 new score:  1
+18:29:18.708 [main] DEBUG fileLogger - Increased score in coordinates: 4 0 1 new score:  1
+18:29:18.708 [main] INFO  consoleLogger - Round 5: Andris (ROCK) VS SyntaxSniper (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:29:18.709 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:18.918 [main] DEBUG fileLogger - Increased score in coordinates: 0 5 0 new score:  3
+18:29:18.918 [main] DEBUG fileLogger - Increased score in coordinates: 5 0 1 new score:  3
+18:29:18.918 [main] INFO  consoleLogger - Round 5: Andris (ROCK) VS InfiniteLoop (SCISSORS) - Andris wins. ROCK crushes SCISSORS
+18:29:18.919 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:19.099 [main] DEBUG fileLogger - Increased score in coordinates: 0 6 1 new score:  4
+18:29:19.099 [main] DEBUG fileLogger - Increased score in coordinates: 6 0 0 new score:  4
+18:29:19.099 [main] INFO  consoleLogger - Round 5: Andris (ROCK) VS ExceptionExplorer (PAPER) - ExceptionExplorer wins. PAPER covers ROCK
+18:29:19.099 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:19.368 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:19.579 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:19.772 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:19.982 [main] DEBUG fileLogger - Increased score in coordinates: 0 7 1 new score:  2
+18:29:19.982 [main] DEBUG fileLogger - Increased score in coordinates: 7 0 0 new score:  2
+18:29:19.983 [main] INFO  consoleLogger - Round 5: Andris (ROCK) VS RuntimeRider (SPOCK) - RuntimeRider wins. SPOCK vaporizes ROCK
+18:29:19.983 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:20.178 [main] DEBUG fileLogger - Increased score in coordinates: 0 8 0 new score:  1
+18:29:20.178 [main] DEBUG fileLogger - Increased score in coordinates: 8 0 1 new score:  1
+18:29:20.178 [main] INFO  consoleLogger - Round 5: Andris (ROCK) VS LambdaLuchador (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:29:20.179 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 0 9 0 new score:  3
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 9 0 1 new score:  3
+18:29:20.390 [main] INFO  consoleLogger - Round 5: Andris (ROCK) VS JavaJuice (SCISSORS) - Andris wins. ROCK crushes SCISSORS
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 1 2 0 new score:  3
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 2 1 1 new score:  3
+18:29:20.390 [main] INFO  consoleLogger - Round 5: RustySemaphore (SPOCK) VS ByteDancer (ROCK) - RustySemaphore wins. SPOCK vaporizes ROCK
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 1 new score:  3
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 0 new score:  3
+18:29:20.390 [main] INFO  consoleLogger - Round 5: RustySemaphore (LIZARD) VS CaffeinatedCompiler (SCISSORS) - CaffeinatedCompiler wins. SCISSORS decapitates LIZARD
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 1 4 0 new score:  2
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 4 1 1 new score:  2
+18:29:20.390 [main] INFO  consoleLogger - Round 5: RustySemaphore (PAPER) VS SyntaxSniper (SPOCK) - RustySemaphore wins. PAPER disproves SPOCK
+18:29:20.390 [main] INFO  consoleLogger - Round 5: RustySemaphore (PAPER) VS InfiniteLoop (PAPER) - It's a draw.
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 1 6 0 new score:  1
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 6 1 1 new score:  1
+18:29:20.390 [main] INFO  consoleLogger - Round 5: RustySemaphore (ROCK) VS ExceptionExplorer (LIZARD) - RustySemaphore wins. ROCK crushes LIZARD
+18:29:20.390 [main] INFO  consoleLogger - Round 5: RustySemaphore (SPOCK) VS RuntimeRider (SPOCK) - It's a draw.
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 1 8 0 new score:  2
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 8 1 1 new score:  2
+18:29:20.390 [main] INFO  consoleLogger - Round 5: RustySemaphore (PAPER) VS LambdaLuchador (SPOCK) - RustySemaphore wins. PAPER disproves SPOCK
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 1 9 0 new score:  2
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 9 1 1 new score:  2
+18:29:20.390 [main] INFO  consoleLogger - Round 5: RustySemaphore (SCISSORS) VS JavaJuice (PAPER) - RustySemaphore wins. SCISSORS cuts PAPER
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 2 3 0 new score:  2
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 3 2 1 new score:  2
+18:29:20.390 [main] INFO  consoleLogger - Round 5: ByteDancer (ROCK) VS CaffeinatedCompiler (LIZARD) - ByteDancer wins. ROCK crushes LIZARD
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 2 4 1 new score:  3
+18:29:20.390 [main] DEBUG fileLogger - Increased score in coordinates: 4 2 0 new score:  3
+18:29:20.391 [main] INFO  consoleLogger - Round 5: ByteDancer (SPOCK) VS SyntaxSniper (LIZARD) - SyntaxSniper wins. LIZARD poisons SPOCK
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 2 5 1 new score:  3
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 5 2 0 new score:  3
+18:29:20.391 [main] INFO  consoleLogger - Round 5: ByteDancer (SPOCK) VS InfiniteLoop (LIZARD) - InfiniteLoop wins. LIZARD poisons SPOCK
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 2 6 0 new score:  5
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 6 2 1 new score:  5
+18:29:20.391 [main] INFO  consoleLogger - Round 5: ByteDancer (PAPER) VS ExceptionExplorer (SPOCK) - ByteDancer wins. PAPER disproves SPOCK
+18:29:20.391 [main] INFO  consoleLogger - Round 5: ByteDancer (SCISSORS) VS RuntimeRider (SCISSORS) - It's a draw.
+18:29:20.391 [main] INFO  consoleLogger - Round 5: ByteDancer (LIZARD) VS LambdaLuchador (LIZARD) - It's a draw.
+18:29:20.391 [main] INFO  consoleLogger - Round 5: ByteDancer (SCISSORS) VS JavaJuice (SCISSORS) - It's a draw.
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 3 4 1 new score:  2
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 4 3 0 new score:  2
+18:29:20.391 [main] INFO  consoleLogger - Round 5: CaffeinatedCompiler (SPOCK) VS SyntaxSniper (PAPER) - SyntaxSniper wins. PAPER disproves SPOCK
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 3 5 1 new score:  3
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 5 3 0 new score:  3
+18:29:20.391 [main] INFO  consoleLogger - Round 5: CaffeinatedCompiler (SPOCK) VS InfiniteLoop (LIZARD) - InfiniteLoop wins. LIZARD poisons SPOCK
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 3 6 1 new score:  2
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 6 3 0 new score:  2
+18:29:20.391 [main] INFO  consoleLogger - Round 5: CaffeinatedCompiler (PAPER) VS ExceptionExplorer (LIZARD) - ExceptionExplorer wins. LIZARD eats PAPER
+18:29:20.391 [main] INFO  consoleLogger - Round 5: CaffeinatedCompiler (PAPER) VS RuntimeRider (PAPER) - It's a draw.
+18:29:20.391 [main] INFO  consoleLogger - Round 5: CaffeinatedCompiler (ROCK) VS LambdaLuchador (ROCK) - It's a draw.
+18:29:20.391 [main] INFO  consoleLogger - Round 5: CaffeinatedCompiler (SCISSORS) VS JavaJuice (SCISSORS) - It's a draw.
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 4 5 0 new score:  2
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 5 4 1 new score:  2
+18:29:20.391 [main] INFO  consoleLogger - Round 5: SyntaxSniper (ROCK) VS InfiniteLoop (LIZARD) - SyntaxSniper wins. ROCK crushes LIZARD
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 4 6 1 new score:  1
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 6 4 0 new score:  1
+18:29:20.391 [main] INFO  consoleLogger - Round 5: SyntaxSniper (SCISSORS) VS ExceptionExplorer (SPOCK) - ExceptionExplorer wins. SPOCK smashes SCISSORS
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 4 7 1 new score:  3
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 7 4 0 new score:  3
+18:29:20.391 [main] INFO  consoleLogger - Round 5: SyntaxSniper (LIZARD) VS RuntimeRider (SCISSORS) - RuntimeRider wins. SCISSORS decapitates LIZARD
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 4 8 0 new score:  4
+18:29:20.391 [main] DEBUG fileLogger - Increased score in coordinates: 8 4 1 new score:  4
+18:29:20.392 [main] INFO  consoleLogger - Round 5: SyntaxSniper (SCISSORS) VS LambdaLuchador (LIZARD) - SyntaxSniper wins. SCISSORS decapitates LIZARD
+18:29:20.392 [main] DEBUG fileLogger - Increased score in coordinates: 4 9 0 new score:  2
+18:29:20.392 [main] DEBUG fileLogger - Increased score in coordinates: 9 4 1 new score:  2
+18:29:20.392 [main] INFO  consoleLogger - Round 5: SyntaxSniper (SPOCK) VS JavaJuice (ROCK) - SyntaxSniper wins. SPOCK vaporizes ROCK
+18:29:20.392 [main] DEBUG fileLogger - Increased score in coordinates: 5 6 1 new score:  4
+18:29:20.392 [main] DEBUG fileLogger - Increased score in coordinates: 6 5 0 new score:  4
+18:29:20.392 [main] INFO  consoleLogger - Round 5: InfiniteLoop (SCISSORS) VS ExceptionExplorer (SPOCK) - ExceptionExplorer wins. SPOCK smashes SCISSORS
+18:29:20.392 [main] INFO  consoleLogger - Round 5: InfiniteLoop (LIZARD) VS RuntimeRider (LIZARD) - It's a draw.
+18:29:20.393 [main] INFO  consoleLogger - Round 5: InfiniteLoop (PAPER) VS LambdaLuchador (PAPER) - It's a draw.
+18:29:20.393 [main] INFO  consoleLogger - Round 5: InfiniteLoop (ROCK) VS JavaJuice (ROCK) - It's a draw.
+18:29:20.393 [main] INFO  consoleLogger - Round 5: ExceptionExplorer (SPOCK) VS RuntimeRider (SPOCK) - It's a draw.
+18:29:20.393 [main] INFO  consoleLogger - Round 5: ExceptionExplorer (SPOCK) VS LambdaLuchador (SPOCK) - It's a draw.
+18:29:20.393 [main] DEBUG fileLogger - Increased score in coordinates: 6 9 1 new score:  4
+18:29:20.393 [main] DEBUG fileLogger - Increased score in coordinates: 9 6 0 new score:  4
+18:29:20.393 [main] INFO  consoleLogger - Round 5: ExceptionExplorer (LIZARD) VS JavaJuice (ROCK) - JavaJuice wins. ROCK crushes LIZARD
+18:29:20.393 [main] DEBUG fileLogger - Increased score in coordinates: 7 8 1 new score:  4
+18:29:20.393 [main] DEBUG fileLogger - Increased score in coordinates: 8 7 0 new score:  4
+18:29:20.393 [main] INFO  consoleLogger - Round 5: RuntimeRider (LIZARD) VS LambdaLuchador (SCISSORS) - LambdaLuchador wins. SCISSORS decapitates LIZARD
+18:29:20.393 [main] DEBUG fileLogger - Increased score in coordinates: 7 9 1 new score:  2
+18:29:20.393 [main] DEBUG fileLogger - Increased score in coordinates: 9 7 0 new score:  2
+18:29:20.393 [main] INFO  consoleLogger - Round 5: RuntimeRider (LIZARD) VS JavaJuice (SCISSORS) - JavaJuice wins. SCISSORS decapitates LIZARD
+18:29:20.393 [main] DEBUG fileLogger - Increased score in coordinates: 8 9 1 new score:  2
+18:29:20.393 [main] DEBUG fileLogger - Increased score in coordinates: 9 8 0 new score:  2
+18:29:20.393 [main] INFO  consoleLogger - Round 5: LambdaLuchador (SCISSORS) VS JavaJuice (ROCK) - JavaJuice wins. ROCK crushes SCISSORS
+18:29:20.398 [main] INFO  consoleLogger - 
+Score Matrix:
+|                     |        Andris       |    RustySemaphore   |      ByteDancer     | CaffeinatedCompiler |     SyntaxSniper    |     InfiniteLoop    |  ExceptionExplorer  |     RuntimeRider    |    LambdaLuchador   |      JavaJuice      |        Total        |
+18:29:20.399 [main] INFO  consoleLogger - |        Andris       |          -          |        4 - 0        |        0 - 1        |        2 - 1        |        1 - 4        |        3 - 1        |        1 - 4        |        2 - 2        |        1 - 2        |        3 - 2        |          17         |
+18:29:20.399 [main] INFO  consoleLogger - |    RustySemaphore   |        0 - 4        |          -          |        3 - 2        |        1 - 3        |        2 - 1        |        1 - 3        |        1 - 4        |        2 - 1        |        2 - 1        |        2 - 2        |          14         |
+18:29:20.400 [main] INFO  consoleLogger - |      ByteDancer     |        1 - 0        |        2 - 3        |          -          |        2 - 2        |        1 - 3        |        0 - 3        |        5 - 0        |        1 - 3        |        3 - 1        |        1 - 3        |          16         |
+18:29:20.401 [main] INFO  consoleLogger - | CaffeinatedCompiler |        1 - 2        |        3 - 1        |        2 - 2        |          -          |        2 - 2        |        0 - 3        |        1 - 2        |        2 - 1        |        1 - 3        |        2 - 0        |          14         |
+18:29:20.401 [main] INFO  consoleLogger - |     SyntaxSniper    |        4 - 1        |        1 - 2        |        3 - 1        |        2 - 2        |          -          |        2 - 3        |        3 - 1        |        2 - 3        |        4 - 1        |        2 - 2        |          23         |
+18:29:20.402 [main] INFO  consoleLogger - |     InfiniteLoop    |        1 - 3        |        3 - 1        |        3 - 0        |        3 - 0        |        3 - 2        |          -          |        1 - 4        |        2 - 2        |        1 - 2        |        2 - 1        |          19         |
+18:29:20.402 [main] INFO  consoleLogger - |  ExceptionExplorer  |        4 - 1        |        4 - 1        |        0 - 5        |        2 - 1        |        1 - 3        |        4 - 1        |          -          |        1 - 2        |        2 - 1        |        0 - 4        |          18         |
+18:29:20.402 [main] INFO  consoleLogger - |     RuntimeRider    |        2 - 2        |        1 - 2        |        3 - 1        |        1 - 2        |        3 - 2        |        2 - 2        |        2 - 1        |          -          |        0 - 4        |        1 - 2        |          15         |
+18:29:20.403 [main] INFO  consoleLogger - |    LambdaLuchador   |        2 - 1        |        1 - 2        |        1 - 3        |        3 - 1        |        1 - 4        |        2 - 1        |        1 - 2        |        4 - 0        |          -          |        3 - 2        |          18         |
+18:29:20.403 [main] INFO  consoleLogger - |      JavaJuice      |        2 - 3        |        2 - 2        |        3 - 1        |        0 - 2        |        2 - 2        |        1 - 2        |        4 - 0        |        2 - 1        |        2 - 3        |          -          |          18         |
+18:29:20.404 [main] INFO  consoleLogger - Winner: SyntaxSniper
+18:40:51.332 [main] INFO  consoleLogger - Enter your name:
+18:40:55.838 [main] DEBUG fileLogger - Added player: Adfasf54
+18:40:55.839 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:40:59.379 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:41:03.533 [main] DEBUG fileLogger - Rounds set to: 1
+18:41:03.534 [main] DEBUG fileLogger - Added player: RustySemaphore
+18:41:03.534 [main] DEBUG fileLogger - Score matrix dimensions set to: [2][2][2]
+18:41:03.535 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:41:07.755 [main] INFO  consoleLogger - Round 1: Adfasf54 (ROCK) VS RustySemaphore (ROCK) - It's a draw.
+18:41:07.760 [main] INFO  consoleLogger - 
+Score Matrix:
+|                |    Adfasf54    | RustySemaphore |      Total     |
+18:41:07.761 [main] INFO  consoleLogger - |    Adfasf54    |        -       |      0 - 0     |        0       |
+18:41:07.761 [main] INFO  consoleLogger - | RustySemaphore |      0 - 0     |        -       |        0       |
+18:41:07.761 [main] INFO  consoleLogger - There are multiple winners. Determining the winner based on direct encounters...
+18:41:07.761 [main] INFO  consoleLogger - There is a draw among the top players even after considering direct encounters.
+18:41:27.649 [main] INFO  consoleLogger - Enter your name:
+18:41:30.428 [main] DEBUG fileLogger - Added player: a
+18:41:30.430 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:41:31.404 [main] ERROR consoleLogger - Invalid input. Please enter an integer number from 1 up to 9.
+18:41:31.404 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:41:42.174 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:41:45.398 [main] DEBUG fileLogger - Rounds set to: 5
+18:41:45.399 [main] DEBUG fileLogger - Added player: CurlyBraces
+18:41:45.399 [main] DEBUG fileLogger - Added player: AlgorithmAce
+18:41:45.399 [main] DEBUG fileLogger - Added player: ExceptionExplorer
+18:41:45.399 [main] DEBUG fileLogger - Added player: ArraySlayer
+18:41:45.400 [main] DEBUG fileLogger - Added player: RuntimeRider
+18:41:45.400 [main] DEBUG fileLogger - Added player: NoSuchElement
+18:41:45.400 [main] DEBUG fileLogger - Added player: BooleanBoss
+18:41:45.400 [main] DEBUG fileLogger - Added player: InfiniteLoop
+18:41:45.400 [main] DEBUG fileLogger - Added player: CaffeinatedCompiler
+18:41:45.400 [main] DEBUG fileLogger - Score matrix dimensions set to: [10][10][2]
+18:41:45.400 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:41:54.549 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:44:24.414 [main] INFO  consoleLogger - Enter your name:
+18:44:27.174 [main] DEBUG fileLogger - Added player: r
+18:44:27.175 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:44:28.615 [main] ERROR consoleLogger - Invalid input. Please enter an integer number from 1 up to 9.
+18:44:28.616 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:44:31.734 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:44:34.240 [main] DEBUG fileLogger - Rounds set to: 4
+18:44:34.241 [main] DEBUG fileLogger - Added player: NoSuchElement
+18:44:34.241 [main] DEBUG fileLogger - Added player: CurlyBraces
+18:44:34.241 [main] DEBUG fileLogger - Added player: ExceptionExplorer
+18:44:34.241 [main] DEBUG fileLogger - Added player: Heapster
+18:44:34.241 [main] DEBUG fileLogger - Added player: Codezilla
+18:44:34.242 [main] DEBUG fileLogger - Score matrix dimensions set to: [6][6][2]
+18:44:34.242 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:44:37.149 [main] ERROR consoleLogger - Invalid move, please try again
+18:44:37.149 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:48:38.995 [main] INFO  consoleLogger - Enter your name:
+18:48:42.357 [main] DEBUG fileLogger - Added player: Andris
+18:48:42.358 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:48:45.296 [main] ERROR consoleLogger - Number of players must be between 1 and 9.
+18:48:45.296 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:48:56.366 [main] ERROR consoleLogger - Number of players must be between 1 and 9.
+18:48:56.366 [main] INFO  consoleLogger - Enter number of computer players (from 1 up to 9):
+18:48:58.901 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:49:01.946 [main] ERROR consoleLogger - Number of rounds must be between 1 and 5.
+18:49:01.946 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:49:03.297 [main] ERROR consoleLogger - Number of rounds must be between 1 and 5.
+18:49:03.297 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:49:04.691 [main] ERROR consoleLogger - Invalid input. Please enter an integer number.
+18:49:04.691 [main] INFO  consoleLogger - Enter number of rounds (from 1 up to 5):
+18:49:11.067 [main] DEBUG fileLogger - Rounds set to: 1
+18:49:11.068 [main] DEBUG fileLogger - Added player: ExceptionExplorer
+18:49:11.068 [main] DEBUG fileLogger - Added player: CurlyBraces
+18:49:11.068 [main] DEBUG fileLogger - Added player: SyntaxSniper
+18:49:11.068 [main] DEBUG fileLogger - Added player: CaffeinatedCompiler
+18:49:11.068 [main] DEBUG fileLogger - Added player: AlgorithmAce
+18:49:11.069 [main] DEBUG fileLogger - Score matrix dimensions set to: [6][6][2]
+18:49:11.069 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:49:22.871 [main] ERROR consoleLogger - Invalid input, please try again
+18:49:22.871 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:49:26.865 [main] DEBUG fileLogger - Increased score in coordinates: 0 1 0 new score:  1
+18:49:26.866 [main] DEBUG fileLogger - Increased score in coordinates: 1 0 1 new score:  1
+18:49:26.877 [main] INFO  consoleLogger - Round 1: Andris (PAPER) VS ExceptionExplorer (ROCK) - Andris wins. PAPER covers ROCK
+18:49:26.877 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:49:31.916 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS CurlyBraces (ROCK) - It's a draw.
+18:49:31.916 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:49:34.571 [main] INFO  consoleLogger - Round 1: Andris (LIZARD) VS SyntaxSniper (LIZARD) - It's a draw.
+18:49:34.572 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:49:37.242 [main] ERROR consoleLogger - Invalid input, please try again
+18:49:37.242 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:49:39.852 [main] DEBUG fileLogger - Increased score in coordinates: 0 4 0 new score:  1
+18:49:39.852 [main] DEBUG fileLogger - Increased score in coordinates: 4 0 1 new score:  1
+18:49:39.852 [main] INFO  consoleLogger - Round 1: Andris (ROCK) VS CaffeinatedCompiler (LIZARD) - Andris wins. ROCK crushes LIZARD
+18:49:39.852 [main] INFO  consoleLogger - Enter your move (R for Rock, P for Paper, S for Scissors, L for Lizard, SP for Spock):
+18:49:44.471 [main] DEBUG fileLogger - Increased score in coordinates: 0 5 1 new score:  1
+18:49:44.471 [main] DEBUG fileLogger - Increased score in coordinates: 5 0 0 new score:  1
+18:49:44.472 [main] INFO  consoleLogger - Round 1: Andris (PAPER) VS AlgorithmAce (SCISSORS) - AlgorithmAce wins. SCISSORS cuts PAPER
+18:49:44.472 [main] INFO  consoleLogger - Round 1: ExceptionExplorer (ROCK) VS CurlyBraces (ROCK) - It's a draw.
+18:49:44.472 [main] DEBUG fileLogger - Increased score in coordinates: 1 3 0 new score:  1
+18:49:44.472 [main] DEBUG fileLogger - Increased score in coordinates: 3 1 1 new score:  1
+18:49:44.472 [main] INFO  consoleLogger - Round 1: ExceptionExplorer (LIZARD) VS SyntaxSniper (PAPER) - ExceptionExplorer wins. LIZARD eats PAPER
+18:49:44.472 [main] DEBUG fileLogger - Increased score in coordinates: 1 4 0 new score:  1
+18:49:44.472 [main] DEBUG fileLogger - Increased score in coordinates: 4 1 1 new score:  1
+18:49:44.472 [main] INFO  consoleLogger - Round 1: ExceptionExplorer (SCISSORS) VS CaffeinatedCompiler (LIZARD) - ExceptionExplorer wins. SCISSORS decapitates LIZARD
+18:49:44.472 [main] DEBUG fileLogger - Increased score in coordinates: 1 5 1 new score:  1
+18:49:44.472 [main] DEBUG fileLogger - Increased score in coordinates: 5 1 0 new score:  1
+18:49:44.472 [main] INFO  consoleLogger - Round 1: ExceptionExplorer (LIZARD) VS AlgorithmAce (SCISSORS) - AlgorithmAce wins. SCISSORS decapitates LIZARD
+18:49:44.472 [main] INFO  consoleLogger - Round 1: CurlyBraces (ROCK) VS SyntaxSniper (ROCK) - It's a draw.
+18:49:44.472 [main] DEBUG fileLogger - Increased score in coordinates: 2 4 0 new score:  1
+18:49:44.472 [main] DEBUG fileLogger - Increased score in coordinates: 4 2 1 new score:  1
+18:49:44.472 [main] INFO  consoleLogger - Round 1: CurlyBraces (PAPER) VS CaffeinatedCompiler (SPOCK) - CurlyBraces wins. PAPER disproves SPOCK
+18:49:44.473 [main] DEBUG fileLogger - Increased score in coordinates: 2 5 1 new score:  1
+18:49:44.473 [main] DEBUG fileLogger - Increased score in coordinates: 5 2 0 new score:  1
+18:49:44.473 [main] INFO  consoleLogger - Round 1: CurlyBraces (SPOCK) VS AlgorithmAce (PAPER) - AlgorithmAce wins. PAPER disproves SPOCK
+18:49:44.473 [main] DEBUG fileLogger - Increased score in coordinates: 3 4 1 new score:  1
+18:49:44.473 [main] DEBUG fileLogger - Increased score in coordinates: 4 3 0 new score:  1
+18:49:44.473 [main] INFO  consoleLogger - Round 1: SyntaxSniper (LIZARD) VS CaffeinatedCompiler (SCISSORS) - CaffeinatedCompiler wins. SCISSORS decapitates LIZARD
+18:49:44.473 [main] DEBUG fileLogger - Increased score in coordinates: 3 5 0 new score:  1
+18:49:44.473 [main] DEBUG fileLogger - Increased score in coordinates: 5 3 1 new score:  1
+18:49:44.473 [main] INFO  consoleLogger - Round 1: SyntaxSniper (LIZARD) VS AlgorithmAce (PAPER) - SyntaxSniper wins. LIZARD eats PAPER
+18:49:44.473 [main] DEBUG fileLogger - Increased score in coordinates: 4 5 1 new score:  1
+18:49:44.473 [main] DEBUG fileLogger - Increased score in coordinates: 5 4 0 new score:  1
+18:49:44.473 [main] INFO  consoleLogger - Round 1: CaffeinatedCompiler (ROCK) VS AlgorithmAce (SPOCK) - AlgorithmAce wins. SPOCK vaporizes ROCK
+18:49:44.477 [main] INFO  consoleLogger - 
+Score Matrix:
+|                     |        Andris       |  ExceptionExplorer  |     CurlyBraces     |     SyntaxSniper    | CaffeinatedCompiler |     AlgorithmAce    |        Total        |
+18:49:44.478 [main] INFO  consoleLogger - |        Andris       |          -          |        1 - 0        |        0 - 0        |        0 - 0        |        1 - 0        |        0 - 1        |          2          |
+18:49:44.478 [main] INFO  consoleLogger - |  ExceptionExplorer  |        0 - 1        |          -          |        0 - 0        |        1 - 0        |        1 - 0        |        0 - 1        |          2          |
+18:49:44.479 [main] INFO  consoleLogger - |     CurlyBraces     |        0 - 0        |        0 - 0        |          -          |        0 - 0        |        1 - 0        |        0 - 1        |          1          |
+18:49:44.479 [main] INFO  consoleLogger - |     SyntaxSniper    |        0 - 0        |        0 - 1        |        0 - 0        |          -          |        0 - 1        |        1 - 0        |          1          |
+18:49:44.480 [main] INFO  consoleLogger - | CaffeinatedCompiler |        0 - 1        |        0 - 1        |        0 - 1        |        1 - 0        |          -          |        0 - 1        |          1          |
+18:49:44.480 [main] INFO  consoleLogger - |     AlgorithmAce    |        1 - 0        |        1 - 0        |        1 - 0        |        0 - 1        |        1 - 0        |          -          |          4          |
+18:49:44.481 [main] INFO  consoleLogger - Winner: AlgorithmAce

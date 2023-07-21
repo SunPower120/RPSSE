@@ -19,4 +19,12 @@ public class Player {
     public void incrementScore() {
         score++;
     }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                ", score=" + score +
+                '}';
+    }
 }
