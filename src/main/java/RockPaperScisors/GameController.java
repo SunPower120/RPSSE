@@ -1,6 +1,5 @@
 package RockPaperScisors;
 
-import RockPaperScisors.Exceptions.OutOfRangeException;
 import RockPaperScisors.GameComponents.FightingTools;
 import RockPaperScisors.GameComponents.MoveChoices;
 import RockPaperScisors.GameComponents.PcPlayerNames;
@@ -17,9 +16,10 @@ public class GameController {
     private final GameState gameState;
     private final MoveChoices moveChoices;
     private final GameConfig gameConfig;
+    private final Scanner scan = new Scanner(System.in);
 
-    public GameController(GameState gameState, MoveChoices moveChoices, GameConfig gameConfig) {
-        this.gameState = gameState;
+    public GameController(MoveChoices moveChoices, GameConfig gameConfig) {
+        this.gameState = new GameState();
         this.moveChoices = moveChoices;
         this.gameConfig = gameConfig;
 
@@ -55,46 +55,16 @@ public class GameController {
     }
 
     public void initGame() {
-        Scanner scan = new Scanner(System.in);
-        int numberOfComputerPlayers;
 
         consoleLogger.info("Enter your name:");
         String playerName = scan.nextLine();
 
         gameState.addPlayerToList(new Player(playerName));
 
-        while (true) {
-            try {
-                consoleLogger.info("Enter number of computer players (from 1 up to 9):");
-                numberOfComputerPlayers = scan.nextInt();
-                if (numberOfComputerPlayers < 1 || numberOfComputerPlayers > 9) {
-                    throw new OutOfRangeException("Number of players must be between 1 and 9.");
-                }
-                break;
-            } catch (InputMismatchException e) {
-                consoleLogger.error("Invalid input. Please enter an integer number.");
-                scan.next();
-            } catch (OutOfRangeException e) {
-                consoleLogger.error(e.getMessage());
-            }
-        }
+        int numberOfComputerPlayers = getInputInRange(9, "Enter number of computer players (from 1 up to 9):", "Number of players must be between 1 and 9.");
+        int numberOfRounds = getInputInRange(5, "Enter number of rounds (from 1 up to 5):", "Number of rounds must be between 1 and 5.");
 
-        while (true) {
-            try {
-                consoleLogger.info("Enter number of rounds (from 1 up to 5):");
-                int numberOfRounds = scan.nextInt();
-                if (numberOfRounds < 1 || numberOfRounds > 5) {
-                    throw new OutOfRangeException("Number of rounds must be between 1 and 5.");
-                }
-                gameState.setNumberOfRounds(numberOfRounds);
-                break;
-            } catch (InputMismatchException e) {
-                consoleLogger.error("Invalid input. Please enter an integer number.");
-                scan.next();
-            } catch (OutOfRangeException e) {
-                consoleLogger.error(e.getMessage());
-            }
-        }
+        gameState.setNumberOfRounds(numberOfRounds);
 
         List<String> randomNames = PcPlayerNames.getRandomNames(numberOfComputerPlayers);
 
@@ -103,4 +73,24 @@ public class GameController {
         }
     }
 
+    private int getInputInRange(int upperBound, String infoMessage, String errorMessage) {
+        while (true) {
+            try {
+                consoleLogger.info(infoMessage);
+                int input = scan.nextInt();
+                if (input < 1 || input > upperBound) {
+                    consoleLogger.error(errorMessage);
+                } else {
+                    return input;
+                }
+            } catch (InputMismatchException e) {
+                consoleLogger.error("Invalid input. Please enter an integer number.");
+                scan.next();
+            }
+        }
+    }
+
+    public GameState getGamestate() {
+        return gameState;
+    }
 }

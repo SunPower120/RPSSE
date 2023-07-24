@@ -14,14 +14,7 @@ public class GameState {
     private int[][][] scoreMatrix;
     private int numberOfRounds;
 
-    public GameState(List<Player> players, int[][][] scoreMatrix, int numberOfRounds) {
-        this.players = players;
-        this.scoreMatrix = scoreMatrix;
-        this.numberOfRounds = numberOfRounds;
-    }
-
     public GameState() {
-
     }
 
     public List<Player> getPlayers() {
@@ -62,4 +55,5 @@ public class GameState {
         players.add(player);
         fileLogger.debug("Added player: {}", player.getName());
     }
+
 }

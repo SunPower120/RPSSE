@@ -7,13 +7,14 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DetermineWinner {
+public class WinnerDecider {
     private static final Logger consoleLogger = LoggerFactory.getLogger("consoleLogger");
-    private final GameState gameState;
     private final List<Player> winners = new ArrayList<>();
+
+    private final GameState gameState;
     private int maxScore = 0;
 
-    public DetermineWinner(GameState gameState) {
+    public WinnerDecider(GameState gameState) {
         this.gameState = gameState;
     }
 
