@@ -17,7 +17,7 @@ An Integrated Development Environment (IDE), like IntelliJ IDEA or Eclipse.
 Running the Game
 Clone or download the project to your local machine.
 
-Open the project in your chosen IDE or text editor.
+Open the project in your chosen IDE.
 
 Run the Main class. This is the entry point to the application.
 
