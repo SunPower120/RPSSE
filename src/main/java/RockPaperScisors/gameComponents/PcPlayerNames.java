@@ -1,4 +1,4 @@
-package RockPaperScisors.GameComponents;
+package RockPaperScisors.gameComponents;
 
 import java.util.ArrayList;
 import java.util.Arrays;

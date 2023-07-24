@@ -1,4 +1,4 @@
-package RockPaperScisors.GameComponents;
+package RockPaperScisors.gameComponents;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

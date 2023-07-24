@@ -1,9 +1,9 @@
 package RockPaperScisors;
 
-import RockPaperScisors.GameComponents.FightingTools;
-import RockPaperScisors.GameComponents.MoveChoices;
-import RockPaperScisors.GameComponents.PcPlayerNames;
-import RockPaperScisors.GameComponents.Player;
+import RockPaperScisors.gameComponents.FightingTools;
+import RockPaperScisors.gameComponents.MoveChoices;
+import RockPaperScisors.gameComponents.PcPlayerNames;
+import RockPaperScisors.gameComponents.Player;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

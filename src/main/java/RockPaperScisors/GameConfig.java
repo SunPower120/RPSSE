@@ -1,6 +1,6 @@
 package RockPaperScisors;
 
-import RockPaperScisors.GameComponents.FightingTools;
+import RockPaperScisors.gameComponents.FightingTools;
 
 import java.util.Collections;
 import java.util.HashMap;

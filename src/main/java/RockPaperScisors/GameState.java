@@ -1,6 +1,6 @@
 package RockPaperScisors;
 
-import RockPaperScisors.GameComponents.Player;
+import RockPaperScisors.gameComponents.Player;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

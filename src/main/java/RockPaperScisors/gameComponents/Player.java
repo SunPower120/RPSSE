@@ -1,4 +1,4 @@
-package RockPaperScisors.GameComponents;
+package RockPaperScisors.gameComponents;
 
 public class Player {
     private final String name;

@@ -1,8 +1,8 @@
 package RockPaperScisors;
 
-import RockPaperScisors.GameComponents.MoveChoices;
-import RockPaperScisors.GameComponents.ScorePrinter;
-import RockPaperScisors.GameComponents.WinnerDecider;
+import RockPaperScisors.gameComponents.MoveChoices;
+import RockPaperScisors.gameComponents.ScorePrinter;
+import RockPaperScisors.gameComponents.WinnerDecider;
 
 public class Main {
 
