@@ -1,17 +1,18 @@
 package RockPaperScisors.GameComponents;
 
-import RockPaperScisors.GameState;
+import RockPaperScisors.GameController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ScorePrinter {
 
     private static final Logger consoleLogger = LoggerFactory.getLogger("consoleLogger");
-    private final GameState gameState;
+    private final GameController gameController;
+
     StringBuilder stringbuilder = new StringBuilder();
 
-    public ScorePrinter(GameState gameState) {
-        this.gameState = gameState;
+    public ScorePrinter(GameController gameController) {
+        this.gameController = gameController;
     }
 
     public void printScores() {
@@ -26,7 +27,7 @@ public class ScorePrinter {
     }
 
     private int findMaxNameLength() {
-        return gameState.getPlayers().stream()
+        return gameController.getGamestate().getPlayers().stream()
                 .mapToInt(player -> player.getName().length())
                 .max()
                 .orElse(15);
@@ -39,7 +40,7 @@ public class ScorePrinter {
     private void printHeader(String format, String formatN, int cellWidth) {
         stringbuilder.append("\nScore Matrix:\n");
         stringbuilder.append(String.format(format, ""));
-        for (Player player : gameState.getPlayers()) {
+        for (Player player : gameController.getGamestate().getPlayers()) {
             stringbuilder.append(String.format(format, center(player.getName(), cellWidth)));
         }
         stringbuilder.append(String.format(formatN, center("Total", cellWidth)));
@@ -48,13 +49,13 @@ public class ScorePrinter {
     }
 
     private void printScoresForEachPlayer(String format, String formatN, int cellWidth) {
-        for (int i = 0; i < gameState.getPlayers().size(); i++) {
-            stringbuilder.append(String.format(format, center(gameState.getPlayers().get(i).getName(), cellWidth)));
+        for (int i = 0; i < gameController.getGamestate().getPlayers().size(); i++) {
+            stringbuilder.append(String.format(format, center(gameController.getGamestate().getPlayers().get(i).getName(), cellWidth)));
             int totalScore = 0;
-            for (int j = 0; j < gameState.getPlayers().size(); j++) {
+            for (int j = 0; j < gameController.getGamestate().getPlayers().size(); j++) {
                 if (i != j) {
-                    stringbuilder.append(String.format(format, center(gameState.getScoreMatrix()[i][j][0] + " - " + gameState.getScoreMatrix()[i][j][1], cellWidth)));
-                    totalScore += gameState.getScoreMatrix()[i][j][0];
+                    stringbuilder.append(String.format(format, center(gameController.getGamestate().getScoreMatrix()[i][j][0] + " - " + gameController.getGamestate().getScoreMatrix()[i][j][1], cellWidth)));
+                    totalScore += gameController.getGamestate().getScoreMatrix()[i][j][0];
                 } else {
                     stringbuilder.append(String.format(format, center("-", cellWidth)));
                 }

@@ -11,8 +11,8 @@ public class Main {
         MoveChoices moveChoices = new MoveChoices();
         GameConfig gameConfig = new GameConfig();
         GameController gameController = new GameController(moveChoices, gameConfig);
-        ScorePrinter scorePrinter = new ScorePrinter(gameController.getGamestate());
-        WinnerDecider winnerDecider = new WinnerDecider(gameController.getGamestate());
+        ScorePrinter scorePrinter = new ScorePrinter(gameController);
+        WinnerDecider winnerDecider = new WinnerDecider(gameController);
 
         gameController.initGame();
         gameController.getGamestate()

@@ -1,6 +1,6 @@
 package RockPaperScisors.GameComponents;
 
-import RockPaperScisors.GameState;
+import RockPaperScisors.GameController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,12 +10,12 @@ import java.util.List;
 public class WinnerDecider {
     private static final Logger consoleLogger = LoggerFactory.getLogger("consoleLogger");
     private final List<Player> winners = new ArrayList<>();
+    private final GameController gameController;
 
-    private final GameState gameState;
     private int maxScore = 0;
 
-    public WinnerDecider(GameState gameState) {
-        this.gameState = gameState;
+    public WinnerDecider(GameController gameController) {
+        this.gameController = gameController;
     }
 
     public void getResults() {
@@ -27,7 +27,7 @@ public class WinnerDecider {
 
     private void filterWinners() {
 
-        for (Player player : gameState.getPlayers()) {
+        for (Player player : gameController.getGamestate().getPlayers()) {
             int score = player.getScore();
             if (score > maxScore) {
                 maxScore = score;
@@ -51,9 +51,9 @@ public class WinnerDecider {
 
                 for (Player opponent : winners) {
                     if (!player.equals(opponent)) {
-                        int playerIndex = gameState.getPlayers().indexOf(player);
-                        int opponentIndex = gameState.getPlayers().indexOf(opponent);
-                        directScore += gameState.getScoreMatrix()[playerIndex][opponentIndex][0];
+                        int playerIndex = gameController.getGamestate().getPlayers().indexOf(player);
+                        int opponentIndex = gameController.getGamestate().getPlayers().indexOf(opponent);
+                        directScore += gameController.getGamestate().getScoreMatrix()[playerIndex][opponentIndex][0];
                     }
                 }
 
